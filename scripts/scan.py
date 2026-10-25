@@ -70,8 +70,29 @@ def resolve(name):
                 best = (key, entry)
     if best:
         return best[1]
-    m = difflib.get_close_matches(kk, list(BY_NAME.keys()), n=1, cutoff=0.74)
-    return BY_NAME[m[0]] if m else None
+    # 模糊匹配（容忍 OCR 错字）：候选含所有别名 key；
+    # 相似度同分时按字符交集破平（"维生紊C"→维生素C 而非 维生素A）
+    m = difflib.get_close_matches(kk, list(BY_KEY.keys()), n=5, cutoff=0.74)
+    if m:
+        best = max(m, key=lambda k: (
+            difflib.SequenceMatcher(None, kk, k).ratio(),
+            len(set(kk) & set(k)),
+        ))
+        return BY_KEY[best]
+
+    # 短词宽松匹配：3-4 字配料名的单字 OCR 错字
+    # （首字相同、长度差≤1、匹配字符数 ≥ 短边长度-1，如"黄元胶"→黄原胶）
+    if 3 <= len(kk) <= 4:
+        cands = []
+        for key, entry in BY_KEY.items():
+            if len(key) >= 3 and abs(len(key) - len(kk)) <= 1 and key[0] == kk[0]:
+                sm = difflib.SequenceMatcher(None, kk, key)
+                matched = sum(b.size for b in sm.get_matching_blocks())
+                if matched >= min(len(kk), len(key)) - 1:
+                    cands.append((matched, len(key), entry))
+        if cands:
+            return max(cands, key=lambda t: (t[0], t[1]))[2]
+    return None
 
 
 # ---------------------------------------------------------------- 分析

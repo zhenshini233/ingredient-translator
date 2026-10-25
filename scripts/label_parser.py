@@ -32,7 +32,7 @@ FUNCTIONAL_CLASSES = {
 CONTAINERS = {"食品添加剂", "复配添加剂", "复合添加剂"}
 
 # 疑似添加剂的后缀/词形（用于未收录条目的分类判断）
-ADDITIVE_SUFFIXES = ("剂", "香精", "香料", "色素", "酯", "酸钠", "酸钾", "酸钙", "酐", "苷")
+ADDITIVE_SUFFIXES = ("剂", "香精", "香料", "色素", "酯", "酸钠", "酸钾", "酸钙", "酐", "苷", "胶")
 E_NUMBER_RE = re.compile(r"^[eE]\s?\d{3}[a-b]?$")
 
 PERCENT_RE = re.compile(r"^\s*(\d+(?:\.\d+)?)\s*%\s*$")
