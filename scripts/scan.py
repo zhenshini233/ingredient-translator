@@ -70,7 +70,7 @@ def resolve(name):
                 best = (key, entry)
     if best:
         return best[1]
-    m = difflib.get_close_matches(kk, list(BY_NAME.keys()), n=1, cutoff=0.78)
+    m = difflib.get_close_matches(kk, list(BY_NAME.keys()), n=1, cutoff=0.74)
     return BY_NAME[m[0]] if m else None
 
 

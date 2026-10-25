@@ -1,5 +1,5 @@
 {
-  "version": "2026.10-v1",
+  "version": "2026.10-v2.2",
   "source_note": "高频条目依据 GB 2760《食品安全国家标准 食品添加剂使用标准》及公开资料人工整理，为常用子集而非全集。数据仅供参考，一切以产品包装标注和现行国标为准。",
   "risk_levels": {
     "0": "常规安心：国标允许、日常大量使用、无普遍人群提示",
@@ -7,232 +7,3470 @@
     "2": "特别关注：合法但公众关注度高，或特定场景建议留意"
   },
   "entries": [
-    {"name": "苯甲酸钠", "en": "sodium benzoate", "e": "E211", "cat": "防腐剂", "kind": "additive", "risk": 1, "what": "抑制细菌霉菌、延长保质期，酸性饮料、酱油、果酱里常见。", "care": "国标允许限量使用。", "aliases": ["安息香酸钠", "苯甲酸纳"]},
-    {"name": "苯甲酸", "en": "benzoic acid", "e": "E210", "cat": "防腐剂", "kind": "additive", "risk": 1, "what": "苯甲酸钠的酸形式，作用相同。", "care": "", "aliases": []},
-    {"name": "山梨酸钾", "en": "potassium sorbate", "e": "E202", "cat": "防腐剂", "kind": "additive", "risk": 1, "what": "最常用的低毒防腐剂之一，面包、糕点、饮料、酱料都常见。", "care": "可参与人体正常代谢，安全性评价良好。", "aliases": []},
-    {"name": "山梨酸", "en": "sorbic acid", "e": "E200", "cat": "防腐剂", "kind": "additive", "risk": 1, "what": "山梨酸钾的酸形式，作用相同。", "care": "", "aliases": []},
-    {"name": "丙酸钙", "en": "calcium propionate", "e": "E282", "cat": "防腐剂", "kind": "additive", "risk": 0, "what": "防霉，面包糕点里最常见的防腐剂。", "care": "", "aliases": []},
-    {"name": "丙酸钠", "en": "sodium propionate", "e": "E281", "cat": "防腐剂", "kind": "additive", "risk": 0, "what": "防霉，用于糕点、豆制品等。", "care": "", "aliases": []},
-    {"name": "脱氢乙酸钠", "en": "sodium dehydroacetate", "e": "E266", "cat": "防腐剂", "kind": "additive", "risk": 2, "what": "广谱防腐，过去在腐乳、酱菜、湿面、糕点中常见。", "care": "2024版国标已收窄使用范围，面包、糕点、焙烤馅料、预制肉制品等已不再允许使用。", "aliases": ["脱氢乙酸"]},
-    {"name": "双乙酸钠", "en": "sodium diacetate", "e": "E262ii", "cat": "防腐剂", "kind": "additive", "risk": 0, "what": "防霉兼调味（酸味来源之一），用于粮食制品、调味料。", "care": "", "aliases": []},
-    {"name": "乳酸链球菌素", "en": "nisin", "e": "E234", "cat": "防腐剂", "kind": "additive", "risk": 0, "what": "乳酸菌发酵产生的天然抗菌肽，乳制品、罐头常见。", "care": "属于'生物防腐'，在消化道可分解。", "aliases": ["乳链球菌肽"]},
-    {"name": "纳他霉素", "en": "natamycin", "e": "E235", "cat": "防腐剂", "kind": "additive", "risk": 0, "what": "天然抗真菌物质，常喷在奶酪、火腿肠表面防霉。", "care": "", "aliases": []},
-    {"name": "二氧化碳", "en": "carbon dioxide", "e": "E290", "cat": "防腐剂", "kind": "additive", "risk": 0, "what": "碳酸饮料的气泡与防腐来源。", "care": "", "aliases": []},
-    {"name": "二氧化硫", "en": "sulfur dioxide", "e": "E220", "cat": "防腐剂", "kind": "additive", "risk": 1, "what": "漂白、防腐、抗氧化，果干、蜜饯、葡萄酒里常见（熏硫）。", "care": "少数人（尤其哮喘患者）对其敏感。", "aliases": []},
-    {"name": "焦亚硫酸钠", "en": "sodium metabisulphite", "e": "E223", "cat": "防腐剂", "kind": "additive", "risk": 1, "what": "亚硫酸盐类，漂白防腐，果脯蜜饯、脱水蔬菜常见。", "care": "敏感人群注意；国标要求标注亚硫酸盐。", "aliases": ["焦亚硫酸钾"]},
-    {"name": "亚硫酸钠", "en": "sodium sulphite", "e": "E221", "cat": "防腐剂", "kind": "additive", "risk": 1, "what": "亚硫酸盐类漂白防腐剂。", "care": "敏感人群注意。", "aliases": ["低亚硫酸钠", "保险粉"]},
-    {"name": "抗坏血酸", "en": "ascorbic acid", "e": "E300", "cat": "抗氧化剂", "kind": "additive", "risk": 0, "what": "就是维生素C，抗氧化护色，果汁、肉制品常见。", "care": "", "aliases": ["维生素C", "vc", "L-抗坏血酸"]},
-    {"name": "抗坏血酸钠", "en": "sodium ascorbate", "e": "E301", "cat": "抗氧化剂", "kind": "additive", "risk": 0, "what": "维生素C的钠盐，抗氧化护色。", "care": "", "aliases": []},
-    {"name": "抗坏血酸棕榈酸酯", "en": "ascorbyl palmitate", "e": "E304", "cat": "抗氧化剂", "kind": "additive", "risk": 0, "what": "脂溶性维生素C衍生物，保护油脂。", "care": "", "aliases": []},
-    {"name": "D-异抗坏血酸钠", "en": "sodium isoascorbate", "e": "E316", "cat": "抗氧化剂", "kind": "additive", "risk": 0, "what": "助色抗氧化，火腿肠、腌腊肉制品里几乎必有。", "care": "与亚硝酸盐配合使用护色。", "aliases": ["异抗坏血酸钠"]},
-    {"name": "维生素E", "en": "tocopherol", "e": "E306", "cat": "抗氧化剂", "kind": "additive", "risk": 0, "what": "天然抗氧化剂，保护油脂不哈败，也是营养强化剂。", "care": "", "aliases": ["生育酚", "dl-α-生育酚", "混合生育酚浓缩物", "d-α-生育酚"]},
-    {"name": "茶多酚", "en": "tea polyphenol", "e": "", "cat": "抗氧化剂", "kind": "additive", "risk": 0, "what": "从茶叶提取的天然抗氧化剂。", "care": "", "aliases": []},
-    {"name": "迷迭香提取物", "en": "rosemary extract", "e": "E392", "cat": "抗氧化剂", "kind": "additive", "risk": 0, "what": "天然抗氧化剂，油脂、肉制品、膨化食品常见。", "care": "", "aliases": []},
-    {"name": "特丁基对苯二酚", "en": "TBHQ", "e": "E319", "cat": "抗氧化剂", "kind": "additive", "risk": 1, "what": "合成抗氧化剂，防止油脂氧化，方便面、油炸零食常见。", "care": "国标允许限量使用；高剂量动物试验有健康关注，正常饮食摄入远低于限量。", "aliases": ["TBHQ", "叔丁基对苯二酚"]},
-    {"name": "丁基羟基茴香醚", "en": "BHA", "e": "E320", "cat": "抗氧化剂", "kind": "additive", "risk": 1, "what": "合成抗氧化剂，油脂、谷物早餐、零食常见。", "care": "国标允许限量使用。", "aliases": ["BHA"]},
-    {"name": "二丁基羟基甲苯", "en": "BHT", "e": "E321", "cat": "抗氧化剂", "kind": "additive", "risk": 1, "what": "合成抗氧化剂，作用同BHA。", "care": "国标允许限量使用。", "aliases": ["BHT"]},
-    {"name": "没食子酸丙酯", "en": "propyl gallate", "e": "E310", "cat": "抗氧化剂", "kind": "additive", "risk": 1, "what": "合成抗氧化剂，常与BHA/BHT搭配。", "care": "", "aliases": ["PG", "棓酸丙酯"]},
-    {"name": "乙二胺四乙酸二钠", "en": "disodium EDTA", "e": "E386", "cat": "稳定剂", "kind": "additive", "risk": 1, "what": "金属离子螯合剂，防变色变味，罐头、酱料、蛋黄酱常见。", "care": "", "aliases": ["EDTA二钠", "EDTA", "edta二钠"]},
-    {"name": "柠檬酸", "en": "citric acid", "e": "E330", "cat": "酸度调节剂", "kind": "additive", "risk": 0, "what": "最常用的酸味剂，也作抗氧化增效，饮料、糖果、罐头无处不在。", "care": "", "aliases": []},
-    {"name": "柠檬酸钠", "en": "sodium citrate", "e": "E331", "cat": "酸度调节剂", "kind": "additive", "risk": 0, "what": "柠檬酸的钠盐，调酸兼稳定，饮料、奶酪常见。", "care": "", "aliases": []},
-    {"name": "柠檬酸钾", "en": "potassium citrate", "e": "E332", "cat": "酸度调节剂", "kind": "additive", "risk": 0, "what": "柠檬酸的钾盐，酸度调节。", "care": "", "aliases": []},
-    {"name": "苹果酸", "en": "malic acid", "e": "E296", "cat": "酸度调节剂", "kind": "additive", "risk": 0, "what": "苹果酸味酸味剂，饮料、果冻常见。", "care": "", "aliases": ["DL-苹果酸"]},
-    {"name": "乳酸", "en": "lactic acid", "e": "E270", "cat": "酸度调节剂", "kind": "additive", "risk": 0, "what": "天然发酵酸味剂，酸奶、饮料、肉制品常见。", "care": "", "aliases": []},
-    {"name": "醋酸", "en": "acetic acid", "e": "E260", "cat": "酸度调节剂", "kind": "additive", "risk": 0, "what": "就是醋酸（醋的主要成分）。", "care": "", "aliases": ["乙酸"]},
-    {"name": "磷酸", "en": "phosphoric acid", "e": "E338", "cat": "酸度调节剂", "kind": "additive", "risk": 1, "what": "可乐型饮料的特征酸味剂。", "care": "磷酸盐类摄入过多会增加磷负荷，肾功能不佳者留意总摄入。", "aliases": []},
-    {"name": "碳酸氢钠", "en": "sodium bicarbonate", "e": "E500ii", "cat": "膨松剂", "kind": "additive", "risk": 0, "what": "小苏打，产气膨松兼调酸。", "care": "", "aliases": ["小苏打"]},
-    {"name": "碳酸钠", "en": "sodium carbonate", "e": "E500i", "cat": "酸度调节剂", "kind": "additive", "risk": 0, "what": "纯碱，中和酸性、改良面团的碱剂。", "care": "", "aliases": ["苏打"]},
-    {"name": "碳酸氢铵", "en": "ammonium bicarbonate", "e": "E503", "cat": "膨松剂", "kind": "additive", "risk": 0, "what": "臭碱，烘焙后完全挥发不留残留，传统桃酥饼干常用。", "care": "", "aliases": ["臭粉"]},
-    {"name": "酒石酸", "en": "tartaric acid", "e": "E334", "cat": "酸度调节剂", "kind": "additive", "risk": 0, "what": "葡萄里的天然酸，饮料、糖果用酸味剂。", "care": "", "aliases": []},
-    {"name": "富马酸", "en": "fumaric acid", "e": "E297", "cat": "酸度调节剂", "kind": "additive", "risk": 0, "what": "酸味剂，常与柠檬酸搭配。", "care": "", "aliases": []},
-    {"name": "葡萄糖酸-δ-内酯", "en": "glucono delta-lactone", "e": "E575", "cat": "稳定和凝固剂", "kind": "additive", "risk": 0, "what": "内酯豆腐的凝固剂。", "care": "", "aliases": ["GDL", "葡萄糖酸内酯"]},
-    {"name": "氢氧化钠", "en": "sodium hydroxide", "e": "E524", "cat": "酸度调节剂", "kind": "additive", "risk": 0, "what": "碱剂，皮蛋、碱水面、橄榄加工用。", "care": "", "aliases": ["烧碱"]},
-    {"name": "三氯蔗糖", "en": "sucralose", "e": "E955", "cat": "甜味剂", "kind": "additive", "risk": 1, "what": "蔗糖衍生的无热量甜味剂，'0糖'饮料最常见。", "care": "国标允许；WHO 提示代糖不是减肥的长期方案。", "aliases": ["蔗糖素"]},
-    {"name": "安赛蜜", "en": "acesulfame potassium", "e": "E950", "cat": "甜味剂", "kind": "additive", "risk": 1, "what": "无热量甜味剂，常与阿斯巴甜/三氯蔗糖搭配使用。", "care": "", "aliases": ["乙酰磺胺酸钾", "AK糖"]},
-    {"name": "阿斯巴甜", "en": "aspartame", "e": "E951", "cat": "甜味剂", "kind": "additive", "risk": 1, "what": "蛋白类甜味剂，无糖可乐的甜味来源之一。", "care": "含苯丙氨酸，苯丙酮尿症患者不宜；国标允许限量使用。", "aliases": ["甜味素", "阿斯巴坦"]},
-    {"name": "甜蜜素", "en": "sodium cyclamate", "e": "E952", "cat": "甜味剂", "kind": "additive", "risk": 1, "what": "无热量甜味剂，蜜饯、凉果、调味乳常见。", "care": "在美国等地未获批准，我国允许限量使用。", "aliases": ["环己基氨基磺酸钠"]},
-    {"name": "糖精钠", "en": "saccharin sodium", "e": "E954", "cat": "甜味剂", "kind": "additive", "risk": 1, "what": "最老的合成甜味剂，蜜饯、瓜子话梅里常见。", "care": "国标允许限量使用。", "aliases": ["糖精"]},
-    {"name": "纽甜", "en": "neotame", "e": "E961", "cat": "甜味剂", "kind": "additive", "risk": 1, "what": "阿斯巴甜衍生物，甜度极高用量极小。", "care": "", "aliases": []},
-    {"name": "甜菊糖苷", "en": "steviol glycoside", "e": "E960", "cat": "甜味剂", "kind": "additive", "risk": 0, "what": "从甜叶菊提取的天然无热量甜味剂。", "care": "", "aliases": ["甜菊糖", "stevia"]},
-    {"name": "罗汉果甜苷", "en": "monk fruit extract", "e": "", "cat": "甜味剂", "kind": "additive", "risk": 0, "what": "罗汉果提取的天然甜味剂。", "care": "", "aliases": ["罗汉果糖苷"]},
-    {"name": "赤藓糖醇", "en": "erythritol", "e": "E968", "cat": "甜味剂", "kind": "additive", "risk": 0, "what": "发酵法生产的糖醇，'0糖'饮料主力，几乎不升血糖。", "care": "安全性评价良好；部分人大量摄入有轻微胃肠不适。", "aliases": []},
-    {"name": "木糖醇", "en": "xylitol", "e": "E967", "cat": "甜味剂", "kind": "additive", "risk": 0, "what": "白桦/玉米芯来源的糖醇，无糖口香糖主角，不致龋。", "care": "过量可能轻泻；对狗剧毒，别喂宠物。", "aliases": []},
-    {"name": "麦芽糖醇", "en": "maltitol", "e": "E965", "cat": "甜味剂", "kind": "additive", "risk": 0, "what": "糖醇类甜味剂，无糖糕点、冰淇淋常见。", "care": "过量可能轻泻；有一定热量。", "aliases": ["麦芽糖醇液", "麦芽糖醇糖浆"]},
-    {"name": "山梨糖醇", "en": "sorbitol", "e": "E420", "cat": "甜味剂", "kind": "additive", "risk": 0, "what": "糖醇类，保湿兼甜味，无糖糖果、牙膏常见。", "care": "过量可能轻泻。", "aliases": ["山梨醇"]},
-    {"name": "甘露糖醇", "en": "mannitol", "e": "E421", "cat": "甜味剂", "kind": "additive", "risk": 0, "what": "糖醇类甜味剂兼抗结。", "care": "过量可能轻泻。", "aliases": ["甘露醇"]},
-    {"name": "乳糖醇", "en": "lactitol", "e": "E966", "cat": "甜味剂", "kind": "additive", "risk": 0, "what": "乳来源糖醇，无糖巧克力常见。", "care": "", "aliases": []},
-    {"name": "阿洛酮糖", "en": "allulose", "e": "", "cat": "甜味剂", "kind": "additive", "risk": 0, "what": "稀有糖类的新型甜味剂，口感接近蔗糖。", "care": "国内按新食品原料/添加剂管理推进中，以现行批准范围为准。", "aliases": ["D-阿洛酮糖"]},
-    {"name": "索马甜", "en": "thaumatin", "e": "E957", "cat": "甜味剂", "kind": "additive", "risk": 0, "what": "西非植物来源的天然蛋白甜味剂。", "care": "", "aliases": ["非洲竹芋甜素"]},
-    {"name": "焦糖色", "en": "caramel colour", "e": "E150", "cat": "着色剂", "kind": "additive", "risk": 1, "what": "糖类焦化制成的酱色色素，可乐、酱油、威士忌常见。", "care": "普通法焦糖安全性良好；亚硫酸铵法焦糖存在4-甲基咪唑关注，国标均允许限量使用。", "aliases": ["焦糖色素", "酱色"]},
-    {"name": "柠檬黄", "en": "tartrazine", "e": "E102", "cat": "着色剂", "kind": "additive", "risk": 1, "what": "合成黄色素，饮料、糖果常见。", "care": "欧盟要求标注'可能对儿童活动及注意力有不良影响'。", "aliases": []},
-    {"name": "日落黄", "en": "sunset yellow", "e": "E110", "cat": "着色剂", "kind": "additive", "risk": 1, "what": "合成橙色素，饮料、果冻、膨化食品常见。", "care": "同柠檬黄，欧盟有儿童提示。", "aliases": []},
-    {"name": "胭脂红", "en": "ponceau 4R", "e": "E124", "cat": "着色剂", "kind": "additive", "risk": 1, "what": "合成红色素，饮料、蜜饯常见。", "care": "同柠檬黄，欧盟有儿童提示。", "aliases": []},
-    {"name": "苋菜红", "en": "amaranth", "e": "E123", "cat": "着色剂", "kind": "additive", "risk": 2, "what": "合成红色素。", "care": "多国对儿童食品有限制要求，我国按国标限定品类使用。", "aliases": []},
-    {"name": "赤藓红", "en": "erythrosine", "e": "E127", "cat": "着色剂", "kind": "additive", "risk": 1, "what": "合成红色素，糖果、樱桃罐头常见。", "care": "", "aliases": []},
-    {"name": "诱惑红", "en": "allura red", "e": "E129", "cat": "着色剂", "kind": "additive", "risk": 1, "what": "合成红色素，肉制品、零食常见。", "care": "同柠檬黄，欧盟有儿童提示。", "aliases": []},
-    {"name": "亮蓝", "en": "brilliant blue", "e": "E133", "cat": "着色剂", "kind": "additive", "risk": 1, "what": "合成蓝色素，糖果、饮料调色。", "care": "", "aliases": []},
-    {"name": "靛蓝", "en": "indigotine", "e": "E132", "cat": "着色剂", "kind": "additive", "risk": 1, "what": "合成蓝色素，常与柠檬黄调配绿色。", "care": "", "aliases": []},
-    {"name": "β-胡萝卜素", "en": "beta-carotene", "e": "E160a", "cat": "着色剂", "kind": "additive", "risk": 0, "what": "天然来源橙黄色素，也是维生素A前体。", "care": "", "aliases": ["贝塔胡萝卜素", "胡萝卜素"]},
-    {"name": "胭脂树橙", "en": "annatto", "e": "E160b", "cat": "着色剂", "kind": "additive", "risk": 0, "what": "热带树种籽提取的天然橙黄色素，奶酪、黄油常见。", "care": "", "aliases": []},
-    {"name": "辣椒红", "en": "paprika extract", "e": "E160c", "cat": "着色剂", "kind": "additive", "risk": 0, "what": "辣椒提取的天然红色素，辣味零食、调料常见。", "care": "", "aliases": ["辣椒橙"]},
-    {"name": "红曲红", "en": "monascus red", "e": "", "cat": "着色剂", "kind": "additive", "risk": 0, "what": "红曲菌发酵产生的天然红色素，肉制品、腐乳常见。", "care": "", "aliases": ["红曲米", "红曲色素", "红曲黄"]},
-    {"name": "栀子黄", "en": "gardenia yellow", "e": "", "cat": "着色剂", "kind": "additive", "risk": 0, "what": "栀子果提取的天然黄色素。", "care": "", "aliases": []},
-    {"name": "栀子蓝", "en": "gardenia blue", "e": "", "cat": "着色剂", "kind": "additive", "risk": 0, "what": "栀子来源天然蓝色素。", "care": "", "aliases": []},
-    {"name": "叶绿素铜钠盐", "en": "sodium copper chlorophyllin", "e": "E141ii", "cat": "着色剂", "kind": "additive", "risk": 0, "what": "叶绿素衍生的天然绿色素，青团、糖果常见。", "care": "", "aliases": []},
-    {"name": "二氧化钛", "en": "titanium dioxide", "e": "E171", "cat": "着色剂", "kind": "additive", "risk": 1, "what": "白色素（白色覆盖力），糖果包衣、口香糖常见。", "care": "欧盟自2022年起不再允许作食品着色剂；我国现行国标仍允许。", "aliases": ["钛白粉"]},
-    {"name": "植物炭黑", "en": "vegetable carbon", "e": "E153", "cat": "着色剂", "kind": "additive", "risk": 0, "what": "植物炭化的黑色色素，饼干、冰淇淋调色。", "care": "", "aliases": []},
-    {"name": "萝卜红", "en": "radish red", "e": "", "cat": "着色剂", "kind": "additive", "risk": 0, "what": "红心萝卜提取的天然红色素。", "care": "", "aliases": []},
-    {"name": "紫甘薯色素", "en": "purple sweet potato colour", "e": "", "cat": "着色剂", "kind": "additive", "risk": 0, "what": "紫薯提取的天然紫红色素。", "care": "", "aliases": ["紫甘蓝色素"]},
-    {"name": "番茄红素", "en": "lycopene", "e": "E160d", "cat": "着色剂", "kind": "additive", "risk": 0, "what": "番茄提取的天然红色素。", "care": "", "aliases": []},
-    {"name": "卡拉胶", "en": "carrageenan", "e": "E407", "cat": "增稠剂", "kind": "additive", "risk": 1, "what": "海藻提取的胶体，让酸奶果冻口感浓稠。", "care": "国标不允许用于婴幼儿食品；食品级按限量使用。", "aliases": []},
-    {"name": "刺槐豆胶", "en": "locust bean gum", "e": "E410", "cat": "增稠剂", "kind": "additive", "risk": 0, "what": "角豆树籽提取的天然胶，常与卡拉胶搭配。", "care": "", "aliases": ["槐豆胶"]},
-    {"name": "黄原胶", "en": "xanthan gum", "e": "E415", "cat": "增稠剂", "kind": "additive", "risk": 0, "what": "发酵法生产的胶体，饮料、酱料、无麸质烘焙常用。", "care": "", "aliases": []},
-    {"name": "果胶", "en": "pectin", "e": "E440", "cat": "增稠剂", "kind": "additive", "risk": 0, "what": "水果皮提取的天然胶，果酱、酸奶常用，也是膳食纤维。", "care": "", "aliases": []},
-    {"name": "琼脂", "en": "agar", "e": "E406", "cat": "增稠剂", "kind": "additive", "risk": 0, "what": "石花菜等海藻提取，果冻、糕点常用。", "care": "", "aliases": ["琼脂粉"]},
-    {"name": "海藻酸钠", "en": "sodium alginate", "e": "E401", "cat": "增稠剂", "kind": "additive", "risk": 0, "what": "海藻提取物，仿生食品、冰淇淋、面条常用。", "care": "", "aliases": ["藻酸钠"]},
-    {"name": "结冷胶", "en": "gellan gum", "e": "E418", "cat": "增稠剂", "kind": "additive", "risk": 0, "what": "发酵法胶体，果冻、植物蛋白饮料常见。", "care": "", "aliases": []},
-    {"name": "瓜尔胶", "en": "guar gum", "e": "E412", "cat": "增稠剂", "kind": "additive", "risk": 0, "what": "瓜尔豆提取的天然胶，冰淇淋、酱料常用。", "care": "", "aliases": []},
-    {"name": "阿拉伯胶", "en": "gum arabic", "e": "E414", "cat": "增稠剂", "kind": "additive", "risk": 0, "what": "金合欢树胶，糖果包衣、饮料乳化稳定。", "care": "", "aliases": []},
-    {"name": "塔拉胶", "en": "tara gum", "e": "E417", "cat": "增稠剂", "kind": "additive", "risk": 0, "what": "塔拉豆提取的天然胶。", "care": "", "aliases": []},
-    {"name": "羧甲基纤维素钠", "en": "CMC", "e": "E466", "cat": "增稠剂", "kind": "additive", "risk": 0, "what": "纤维素衍生物，冰淇淋、酸奶增稠稳定。", "care": "", "aliases": ["CMC", "纤维素胶"]},
-    {"name": "羟丙基二淀粉磷酸酯", "en": "hydroxypropyl distarch phosphate", "e": "E1442", "cat": "增稠剂", "kind": "additive", "risk": 0, "what": "变性淀粉，耐热耐酸，酸奶、酱料增稠。", "care": "", "aliases": []},
-    {"name": "乙酰化二淀粉磷酸酯", "en": "acetylated distarch phosphate", "e": "E1414", "cat": "增稠剂", "kind": "additive", "risk": 0, "what": "变性淀粉，增稠稳定。", "care": "", "aliases": []},
-    {"name": "氧化淀粉", "en": "oxidised starch", "e": "E1404", "cat": "增稠剂", "kind": "additive", "risk": 0, "what": "变性淀粉。", "care": "", "aliases": []},
-    {"name": "磷酸化二淀粉磷酸酯", "en": "phosphated distarch phosphate", "e": "E1413", "cat": "增稠剂", "kind": "additive", "risk": 0, "what": "变性淀粉。", "care": "", "aliases": []},
-    {"name": "醋酸酯淀粉", "en": "starch acetate", "e": "E1420", "cat": "增稠剂", "kind": "additive", "risk": 0, "what": "变性淀粉。", "care": "", "aliases": []},
-    {"name": "聚葡萄糖", "en": "polydextrose", "e": "E1200", "cat": "增稠剂", "kind": "additive", "risk": 0, "what": "同时是水溶性膳食纤维，常标注为纤维来源。", "care": "过量可能轻泻。", "aliases": []},
-    {"name": "魔芋粉", "en": "konjac flour", "e": "E425", "cat": "增稠剂", "kind": "additive", "risk": 0, "what": "魔芋提取物，葡甘露聚糖，果冻、仿生食品常见。", "care": "果冻形式对幼儿有噎呛风险（与添加剂无关）。", "aliases": ["葡甘露聚糖", "魔芋胶"]},
-    {"name": "明胶", "en": "gelatin", "e": "", "cat": "增稠剂", "kind": "additive", "risk": 0, "what": "动物皮骨提取的蛋白胶，软糖、酸奶、慕斯常用。", "care": "来源于猪/牛/鱼，素食者与清真饮食注意。", "aliases": ["吉利丁"]},
-    {"name": "单硬脂酸甘油酯", "en": "glyceryl monostearate", "e": "E471", "cat": "乳化剂", "kind": "additive", "risk": 0, "what": "甘油与脂肪酸的酯，让油水不分层，烘焙、饮料极常见。", "care": "", "aliases": ["单甘酯", "单双甘油脂肪酸酯", "单,双甘油脂肪酸酯"]},
-    {"name": "大豆磷脂", "en": "soybean lecithin", "e": "E322", "cat": "乳化剂", "kind": "additive", "risk": 0, "what": "大豆提取的卵磷脂，巧克力、烘焙常用，也是营养成分。", "care": "大豆来源，过敏提示以包装为准。", "aliases": ["卵磷脂", "磷脂"]},
-    {"name": "蔗糖脂肪酸酯", "en": "sucrose ester", "e": "E473", "cat": "乳化剂", "kind": "additive", "risk": 0, "what": "蔗糖与脂肪酸的酯，乳化稳定。", "care": "", "aliases": ["蔗糖酯"]},
-    {"name": "聚甘油脂肪酸酯", "en": "polyglycerol ester", "e": "E475", "cat": "乳化剂", "kind": "additive", "risk": 0, "what": "乳化剂，冰淇淋、植物蛋白饮料常见。", "care": "", "aliases": []},
-    {"name": "山梨醇酐单硬脂酸酯", "en": "sorbitan monostearate", "e": "E491", "cat": "乳化剂", "kind": "additive", "risk": 1, "what": "司盘类乳化剂。", "care": "", "aliases": ["司盘60", "span60"]},
-    {"name": "聚山梨酸酯80", "en": "polysorbate 80", "e": "E433", "cat": "乳化剂", "kind": "additive", "risk": 1, "what": "吐温类乳化剂，冰淇淋常用。", "care": "", "aliases": ["吐温80", "tween80"]},
-    {"name": "双乙酰酒石酸单双甘油酯", "en": "DATEM", "e": "E472e", "cat": "乳化剂", "kind": "additive", "risk": 0, "what": "面包常用的面团改良乳化剂。", "care": "", "aliases": ["DATEM"]},
-    {"name": "硬脂酰乳酸钠", "en": "sodium stearoyl lactylate", "e": "E481", "cat": "乳化剂", "kind": "additive", "risk": 0, "what": "面包、馒头用的面团改良剂。", "care": "", "aliases": ["SSL"]},
-    {"name": "硬脂酰乳酸钙", "en": "calcium stearoyl lactylate", "e": "E482", "cat": "乳化剂", "kind": "additive", "risk": 0, "what": "面团改良剂。", "care": "", "aliases": ["CSL"]},
-    {"name": "酪蛋白酸钠", "en": "sodium caseinate", "e": "", "cat": "乳化剂", "kind": "additive", "risk": 0, "what": "乳蛋白，植脂末的蛋白来源，兼乳化增白。", "care": "乳制品来源，过敏提示以包装为准。", "aliases": ["酪朊酸钠", "酪蛋白"]},
-    {"name": "谷氨酸钠", "en": "monosodium glutamate", "e": "E621", "cat": "增味剂", "kind": "additive", "risk": 0, "what": "味精的主体，提供鲜味。", "care": "", "aliases": ["味精", "MSG"]},
-    {"name": "5'-呈味核苷酸二钠", "en": "disodium 5'-ribonucleotide", "e": "E635", "cat": "增味剂", "kind": "additive", "risk": 0, "what": "与谷氨酸钠协同增鲜（I+G），零食调料极常见。", "care": "嘌呤含量高，痛风急性期人群留意。", "aliases": ["呈味核苷酸二钠", "I+G", "5'-呈味核苷酸二钠(I+G)"]},
-    {"name": "5'-肌苷酸二钠", "en": "disodium inosinate", "e": "E631", "cat": "增味剂", "kind": "additive", "risk": 0, "what": "增鲜剂。", "care": "嘌呤来源，痛风人群留意。", "aliases": []},
-    {"name": "5'-鸟苷酸二钠", "en": "disodium guanylate", "e": "E627", "cat": "增味剂", "kind": "additive", "risk": 0, "what": "增鲜剂。", "care": "嘌呤来源，痛风人群留意。", "aliases": []},
-    {"name": "琥珀酸二钠", "en": "disodium succinate", "e": "E363", "cat": "增味剂", "kind": "additive", "risk": 0, "what": "贝类风味增味剂，调味料常见。", "care": "", "aliases": []},
-    {"name": "酵母抽提物", "en": "yeast extract", "e": "", "cat": "增味剂", "kind": "additive", "risk": 0, "what": "酵母分解产物，天然鲜味来源，常用于替代味精的'清洁标签'。", "care": "含嘌呤与少量谷氨酸。", "aliases": ["酵母提取物", "酵母味素"]},
-    {"name": "食用香精", "en": "flavouring", "e": "", "cat": "香精香料", "kind": "additive", "risk": 1, "what": "由多种香料组成的混合物，提供风味，饮料零食几乎无处不在。", "care": "具体成分通常不逐项列明，按国标使用；追求'清洁配方'者留意。", "aliases": ["食用香料", "香精", "香料", "天然香精", "人工食用香精"]},
-    {"name": "香兰素", "en": "vanillin", "e": "", "cat": "香精香料", "kind": "additive", "risk": 0, "what": "香草味的主要来源，奶粉、烘焙常见。", "care": "", "aliases": ["香草醛", "乙基香兰素"]},
-    {"name": "乙基麦芽酚", "en": "ethyl maltol", "e": "", "cat": "香精香料", "kind": "additive", "risk": 0, "what": "增香剂，让甜味和果香更圆润。", "care": "", "aliases": []},
-    {"name": "咖啡因", "en": "caffeine", "e": "", "cat": "其他", "kind": "additive", "risk": 1, "what": "提神成分，可乐、能量饮料、咖啡制品。", "care": "儿童、孕妇及咖啡因敏感者注意摄入量。", "aliases": []},
-    {"name": "硫酸铝钾", "en": "potassium alum", "e": "E522", "cat": "膨松剂", "kind": "additive", "risk": 2, "what": "钾明矾，传统油条、海蜇加工用。", "care": "关注铝残留，国标对铝残留量有限量要求；无铝膨松剂已广泛替代。", "aliases": ["钾明矾", "明矾"]},
-    {"name": "硫酸铝铵", "en": "ammonium alum", "e": "E523", "cat": "膨松剂", "kind": "additive", "risk": 2, "what": "铵明矾，作用同钾明矾。", "care": "同钾明矾，关注铝残留。", "aliases": ["铵明矾"]},
-    {"name": "磷酸二氢钙", "en": "monocalcium phosphate", "e": "E341i", "cat": "膨松剂", "kind": "additive", "risk": 1, "what": "复合膨松剂的酸性成分，也是钙强化剂。", "care": "磷酸盐类，肾功能不佳者留意总摄入。", "aliases": []},
-    {"name": "氯化钙", "en": "calcium chloride", "e": "E509", "cat": "稳定和凝固剂", "kind": "additive", "risk": 0, "what": "凝固稳定剂，豆腐、果蔬脆片常见。", "care": "", "aliases": []},
-    {"name": "硫酸钙", "en": "calcium sulphate", "e": "E516", "cat": "稳定和凝固剂", "kind": "additive", "risk": 0, "what": "石膏，北豆腐的传统凝固剂。", "care": "", "aliases": ["石膏"]},
-    {"name": "氯化镁", "en": "magnesium chloride", "e": "E511", "cat": "稳定和凝固剂", "kind": "additive", "risk": 0, "what": "卤水，盐卤豆腐用。", "care": "", "aliases": ["卤水"]},
-    {"name": "二氧化硅", "en": "silicon dioxide", "e": "E551", "cat": "抗结剂", "kind": "additive", "risk": 0, "what": "防止粉末结块，奶粉、调料、蛋白粉常见。", "care": "", "aliases": ["硅胶"]},
-    {"name": "磷酸三钙", "en": "tricalcium phosphate", "e": "E341iii", "cat": "抗结剂", "kind": "additive", "risk": 1, "what": "抗结兼钙强化。", "care": "磷酸盐类，肾功能不佳者留意总摄入。", "aliases": []},
-    {"name": "硬脂酸镁", "en": "magnesium stearate", "e": "E573", "cat": "抗结剂", "kind": "additive", "risk": 0, "what": "抗结润滑剂，粉末食品、压片糖果常见。", "care": "", "aliases": []},
-    {"name": "亚铁氰化钾", "en": "potassium ferrocyanide", "e": "E536", "cat": "抗结剂", "kind": "additive", "risk": 0, "what": "食盐抗结剂，名字吓人但按国标用于食盐安全性有充分保障。", "care": "", "aliases": ["亚铁氰化钠"]},
-    {"name": "柠檬酸铁铵", "en": "ammonium ferric citrate", "e": "E381", "cat": "抗结剂", "kind": "additive", "risk": 0, "what": "食盐抗结剂。", "care": "", "aliases": []},
-    {"name": "三聚磷酸钠", "en": "sodium tripolyphosphate", "e": "E451i", "cat": "水分保持剂", "kind": "additive", "risk": 1, "what": "保水增重，让肉制品多汁饱满，火腿肠、丸子常见。", "care": "磷酸盐类，肾功能不佳者留意总摄入。", "aliases": []},
-    {"name": "六偏磷酸钠", "en": "sodium hexametaphosphate", "e": "E452i", "cat": "水分保持剂", "kind": "additive", "risk": 1, "what": "保水、螯合、稳定，肉制品与水产加工常见。", "care": "磷酸盐类，肾功能不佳者留意总摄入。", "aliases": []},
-    {"name": "焦磷酸钠", "en": "tetrasodium pyrophosphate", "e": "E450i", "cat": "水分保持剂", "kind": "additive", "risk": 1, "what": "保水护色，肉制品、水产常见。", "care": "磷酸盐类，肾功能不佳者留意总摄入。", "aliases": []},
-    {"name": "复合磷酸盐", "en": "compound phosphates", "e": "", "cat": "水分保持剂", "kind": "additive", "risk": 1, "what": "多种磷酸盐的复配保水剂，肉制品常见。", "care": "磷酸盐类，肾功能不佳者留意总摄入。", "aliases": ["磷酸盐"]},
-    {"name": "亚硝酸钠", "en": "sodium nitrite", "e": "E250", "cat": "护色剂", "kind": "additive", "risk": 2, "what": "让腌腊肉保持粉红色并抑制肉毒杆菌，火腿肠培根腊肉必需。", "care": "国标仅允许在腌腊肉制品等限量使用；与肉中胺类可形成亚硝胺，加工肉制品建议适量食用。", "aliases": []},
-    {"name": "硝酸钠", "en": "sodium nitrate", "e": "E251", "cat": "护色剂", "kind": "additive", "risk": 2, "what": "作用同亚硝酸钠，在体内可转化为亚硝酸盐。", "care": "同亚硝酸钠。", "aliases": []},
-    {"name": "虫胶", "en": "shellac", "e": "E904", "cat": "被膜剂", "kind": "additive", "risk": 0, "what": "紫胶虫分泌物，糖果抛光上光。", "care": "来源为昆虫，素食者留意。", "aliases": ["紫胶片"]},
-    {"name": "巴西棕榈蜡", "en": "carnauba wax", "e": "E903", "cat": "被膜剂", "kind": "additive", "risk": 0, "what": "棕榈蜡，糖果巧克力抛光。", "care": "", "aliases": []},
-    {"name": "果蜡", "en": "fruit wax", "e": "", "cat": "被膜剂", "kind": "additive", "risk": 0, "what": "柑橘苹果表面保鲜打蜡。", "care": "食用前清洗或去皮即可。", "aliases": ["巴西棕榈蜡"]},
-    {"name": "转谷氨酰胺酶", "en": "transglutaminase", "e": "", "cat": "酶制剂", "kind": "additive", "risk": 0, "what": "TG酶，让碎肉重组成整块，火腿、肉丸、牛排加工常用。", "care": "国标允许；重组肉制品应如实标注。", "aliases": ["TG酶"]},
-    {"name": "凝乳酶", "en": "rennet", "e": "", "cat": "酶制剂", "kind": "additive", "risk": 0, "what": "奶酪生产的核心凝乳酶。", "care": "传统来源为小牛胃，也有微生物来源。", "aliases": []},
-    {"name": "木瓜蛋白酶", "en": "papain", "e": "", "cat": "酶制剂", "kind": "additive", "risk": 0, "what": "嫩肉粉的主要成分，分解蛋白质让肉变嫩。", "care": "", "aliases": ["嫩肉酶"]},
-    {"name": "白砂糖", "en": "white sugar", "e": "", "cat": "糖类配料", "kind": "sugar", "risk": 1, "what": "最常见的糖。配料表排位越靠前含量越高。", "care": "WHO 建议每日游离糖低于总能量10%（约50g）。", "aliases": ["砂糖", "蔗糖", "绵白糖", "冰糖", "红糖", "赤砂糖", "方糖"]},
-    {"name": "葡萄糖浆", "en": "glucose syrup", "e": "", "cat": "糖类配料", "kind": "sugar", "risk": 1, "what": "淀粉水解的糖浆，糖果、糕点保甜保湿。", "care": "", "aliases": ["玉米糖浆"]},
-    {"name": "果葡糖浆", "en": "high fructose corn syrup", "e": "", "cat": "糖类配料", "kind": "sugar", "risk": 1, "what": "果糖+葡萄糖的糖浆，饮料最廉价的甜味来源。", "care": "含果糖，大量摄入与脂肪肝、痛风风险相关研究较多。", "aliases": ["高果糖浆", "高果糖玉米糖浆"]},
-    {"name": "麦芽糖浆", "en": "malt syrup", "e": "", "cat": "糖类配料", "kind": "sugar", "risk": 1, "what": "麦芽糖为主的糖浆，烘焙、酿造常用。", "care": "", "aliases": ["麦芽糖"]},
-    {"name": "结晶果糖", "en": "crystalline fructose", "e": "", "cat": "糖类配料", "kind": "sugar", "risk": 1, "what": "纯果糖，甜度高于蔗糖。", "care": "果糖代谢主要在肝脏，控制总量。", "aliases": ["果糖"]},
-    {"name": "蜂蜜", "en": "honey", "e": "", "cat": "糖类配料", "kind": "sugar", "risk": 0, "what": "天然糖源，主要成分仍是果糖和葡萄糖。", "care": "1岁以下婴儿不可食用蜂蜜。", "aliases": []},
-    {"name": "浓缩果汁", "en": "fruit juice concentrate", "e": "", "cat": "糖类配料", "kind": "sugar", "risk": 1, "what": "果汁浓缩后本质上是糖浆，'果汁甜味'的来源。", "care": "与添加糖等效，别当无糖看待。", "aliases": ["浓缩苹果汁", "浓缩橙汁", "浓缩葡萄汁"]},
-    {"name": "海藻糖", "en": "trehalose", "e": "", "cat": "糖类配料", "kind": "sugar", "risk": 0, "what": "甜度较低的糖，保湿护蛋白，烘焙与冻品常用。", "care": "", "aliases": []},
-    {"name": "异麦芽酮糖", "en": "isomaltulose", "e": "", "cat": "糖类配料", "kind": "sugar", "risk": 0, "what": "升糖较慢的蔗糖异构体。", "care": "", "aliases": []},
-    {"name": "乳糖", "en": "lactose", "e": "", "cat": "糖类配料", "kind": "sugar", "risk": 0, "what": "乳中的糖。", "care": "乳糖不耐受人群留意。", "aliases": []},
-    {"name": "氢化植物油", "en": "hydrogenated vegetable oil", "e": "", "cat": "油脂配料", "kind": "fat", "risk": 2, "what": "植物油加氢固化，植脂末、人造奶油的原料。", "care": "工艺不彻底时含反式脂肪酸；营养成分表'反式脂肪0'指每100g≤0.3g。", "aliases": ["部分氢化植物油", "氢化大豆油", "氢化棕榈油"]},
-    {"name": "植脂末", "en": "non-dairy creamer", "e": "", "cat": "油脂配料", "kind": "fat", "risk": 2, "what": "俗称奶精，葡萄糖浆+氢化植物油+酪蛋白酸钠等做的'假奶粉'，奶茶、咖啡伴侣、烘焙常见。", "care": "可能含反式脂肪酸与乳蛋白；看营养成分表反式脂肪项。", "aliases": ["奶精", "植脂末(奶精)"]},
-    {"name": "人造奶油", "en": "margarine", "e": "", "cat": "油脂配料", "kind": "fat", "risk": 2, "what": "植物油氢化制成的'植物黄油'。", "care": "关注反式脂肪酸含量；用途多为烘焙和涂抹。", "aliases": ["植物奶油", "人造黄油", "麦淇淋"]},
-    {"name": "起酥油", "en": "shortening", "e": "", "cat": "油脂配料", "kind": "fat", "risk": 2, "what": "让糕点起酥的油脂，可能采用部分氢化工艺。", "care": "关注反式脂肪酸；酥皮、蛋挞、饼干常见。", "aliases": []},
-    {"name": "代可可脂", "en": "cocoa butter substitute", "e": "", "cat": "油脂配料", "kind": "fat", "risk": 2, "what": "用廉价植物油模拟可可脂，'巧克力味'产品常用。", "care": "可能含反式脂肪酸，且不含可可脂的有益成分；真巧克力看'可可脂'。", "aliases": ["类可可脂"]},
-    {"name": "黄油", "en": "butter", "e": "", "cat": "油脂配料", "kind": "fat", "risk": 0, "what": "牛奶提炼的天然油脂。", "care": "乳制品来源。", "aliases": ["奶油", "乳脂", "无水奶油", "稀奶油"]},
-    {"name": "可可脂", "en": "cocoa butter", "e": "", "cat": "油脂配料", "kind": "fat", "risk": 0, "what": "可可豆提取的天然油脂，真巧克力的标志。", "care": "", "aliases": []},
-    {"name": "可可液块", "en": "cocoa mass", "e": "", "cat": "油脂配料", "kind": "fat", "risk": 0, "what": "可可豆研磨物，巧克力的灵魂，含量越高越'真'。", "care": "", "aliases": ["可可粉", "可可液"]},
-    {"name": "精炼植物油", "en": "refined vegetable oil", "e": "", "cat": "油脂配料", "kind": "fat", "risk": 0, "what": "通用油脂配料。", "care": "多为棕榈油等，饱和脂肪比例看具体油种。", "aliases": ["食用植物油", "植物油", "棕榈油", "大豆油", "菜籽油", "葵花籽油", "玉米油"]},
-    {"name": "食用盐", "en": "salt", "e": "", "cat": "调味配料", "kind": "ingredient", "risk": 0, "what": "盐。", "care": "钠摄入看营养成分表更准。", "aliases": ["精制盐", "海盐"]},
-    {"name": "酱油", "en": "soy sauce", "e": "", "cat": "调味配料", "kind": "ingredient", "risk": 0, "what": "发酵调味料，含盐。", "care": "", "aliases": ["酿造酱油"]},
-    {"name": "生牛乳", "en": "raw milk", "e": "", "cat": "主要原料", "kind": "ingredient", "risk": 0, "what": "未经浓缩的鲜奶，好酸奶的第一标志。", "care": "乳制品。", "aliases": ["生乳", "鲜牛奶", "牛乳", "纯牛奶"]},
-    {"name": "全脂乳粉", "en": "whole milk powder", "e": "", "cat": "主要原料", "kind": "ingredient", "risk": 0, "what": "奶粉，复原乳制品的原料。", "care": "乳制品。", "aliases": ["乳粉", "奶粉", "脱脂乳粉", "脱脂奶粉"]},
-    {"name": "乳清蛋白粉", "en": "whey protein", "e": "", "cat": "主要原料", "kind": "ingredient", "risk": 0, "what": "乳清蛋白，提高蛋白含量。", "care": "乳制品。", "aliases": ["浓缩乳清蛋白", "乳清蛋白"]},
-    {"name": "浓缩牛奶蛋白", "en": "milk protein concentrate", "e": "", "cat": "主要原料", "kind": "ingredient", "risk": 0, "what": "牛奶蛋白浓缩物。", "care": "乳制品。", "aliases": ["牛奶蛋白"]},
-    {"name": "小麦粉", "en": "wheat flour", "e": "", "cat": "主要原料", "kind": "ingredient", "risk": 0, "what": "面粉。", "care": "含麸质。", "aliases": ["面粉", "高筋小麦粉", "低筋小麦粉", "全麦粉"]},
-    {"name": "麦芽糊精", "en": "maltodextrin", "e": "", "cat": "主要原料", "kind": "ingredient", "risk": 1, "what": "淀粉水解物，填充增稠，升糖快。", "care": "血糖管理人群留意。", "aliases": []},
-    {"name": "大豆蛋白", "en": "soy protein", "e": "", "cat": "主要原料", "kind": "ingredient", "risk": 0, "what": "植物蛋白来源。", "care": "大豆来源。", "aliases": ["大豆分离蛋白", "大豆蛋白粉"]},
-    {"name": "水", "en": "water", "e": "", "cat": "主要原料", "kind": "ingredient", "risk": 0, "what": "水，饮料配料表第一位很正常。", "care": "", "aliases": ["饮用水", "生活饮用水", "纯净水"]},
-    {"name": "益生菌", "en": "probiotics", "e": "", "cat": "主要原料", "kind": "ingredient", "risk": 0, "what": "发酵菌种，如保加利亚乳杆菌、嗜热链球菌等。", "care": "", "aliases": ["嗜热链球菌", "保加利亚乳杆菌", "双歧杆菌", "乳酸菌", "嗜酸乳杆菌", "鼠李糖乳杆菌"]},
-    {"name": "聚甘油蓖麻醇酸酯", "en": "polyglycerol polyricinoleate", "e": "E476", "cat": "乳化剂", "kind": "additive", "risk": 0, "what": "巧克力专用乳化剂，让可可浆更顺滑、省可可脂。", "care": "", "aliases": ["PGPR"]},
-    {"name": "葡萄糖", "en": "glucose", "e": "", "cat": "糖类配料", "kind": "sugar", "risk": 1, "what": "单糖，甜度低于蔗糖，常作填充和甜味来源。", "care": "", "aliases": ["无水葡萄糖", "液体葡萄糖"]},
-    {"name": "水解植物蛋白", "en": "hydrolyzed vegetable protein", "e": "", "cat": "增味剂", "kind": "additive", "risk": 0, "what": "植物蛋白水解物，天然增鲜原料，酱油、调料常见。", "care": "常以大豆/小麦为原料，过敏人群看包装标注。", "aliases": ["植物水解蛋白", "水解蛋白"]},
-    {"name": "变性淀粉", "en": "modified starch", "e": "", "cat": "增稠剂", "kind": "additive", "risk": 0, "what": "改性淀粉，增稠稳定，酱料、肉制品常见。", "care": "", "aliases": ["修饰淀粉"]},
-    {"name": "乳酸钠", "en": "sodium lactate", "e": "E325", "cat": "水分保持剂", "kind": "additive", "risk": 0, "what": "保湿兼防腐增效，肉制品保鲜常见。", "care": "", "aliases": []},
-    {"name": "丙二醇", "en": "propylene glycol", "e": "E1520", "cat": "稳定剂", "kind": "additive", "risk": 1, "what": "保湿剂/载体，糕点、湿面、香精溶剂常见。", "care": "国标按品类限量使用。", "aliases": []},
-    {"name": "氯化钾", "en": "potassium chloride", "e": "E508", "cat": "酸度调节剂", "kind": "additive", "risk": 0, "what": "低钠盐的'减盐'成分，替代部分咸味。", "care": "肾功能不佳者遵医嘱控制钾摄入。", "aliases": []},
-    {"name": "甘氨酸", "en": "glycine", "e": "E640", "cat": "增味剂", "kind": "additive", "risk": 0, "what": "带甜味的氨基酸，调料、速食汤增味缓冲。", "care": "", "aliases": []},
-    {"name": "甜菜红", "en": "beetroot red", "e": "E162", "cat": "着色剂", "kind": "additive", "risk": 0, "what": "红甜菜提取的天然红色素，酸奶、糖果常见。", "care": "", "aliases": ["甜菜根红"]},
-    {"name": "葡萄皮红", "en": "anthocyanins", "e": "E163", "cat": "着色剂", "kind": "additive", "risk": 0, "what": "葡萄皮提取的花青素类天然色素。", "care": "", "aliases": ["花青素", "葡萄皮提取物"]},
-    {"name": "高粱红", "en": "sorghum red", "e": "", "cat": "着色剂", "kind": "additive", "risk": 0, "what": "高粱壳提取的天然色素。", "care": "", "aliases": []},
-    {"name": "微晶纤维素", "en": "microcrystalline cellulose", "e": "E460", "cat": "抗结剂", "kind": "additive", "risk": 0, "what": "纤维素粉末，抗结、增稠、替代脂肪口感，常见于即食粉、奶酪。", "care": "不溶性膳食纤维，不被人体吸收。", "aliases": ["MCC"]},
-    {"name": "甲基纤维素", "en": "methyl cellulose", "e": "E461", "cat": "增稠剂", "kind": "additive", "risk": 0, "what": "纤维素衍生物，增稠凝胶。", "care": "", "aliases": ["MC"]},
-    {"name": "羟丙基甲基纤维素", "en": "hypromellose", "e": "E464", "cat": "增稠剂", "kind": "additive", "risk": 0, "what": "纤维素衍生物，素食胶囊壳、烘焙保湿常用。", "care": "", "aliases": ["HPMC", "羟丙甲纤维素"]},
-    {"name": "羟丙基淀粉", "en": "hydroxypropyl starch", "e": "E1440", "cat": "增稠剂", "kind": "additive", "risk": 0, "what": "变性淀粉，增稠稳定。", "care": "", "aliases": []},
-    {"name": "硅酸钙", "en": "calcium silicate", "e": "E552", "cat": "抗结剂", "kind": "additive", "risk": 0, "what": "抗结块，粉末食品、调味料常见。", "care": "", "aliases": []},
-    {"name": "硅铝酸钠", "en": "sodium aluminosilicate", "e": "E554", "cat": "抗结剂", "kind": "additive", "risk": 0, "what": "抗结块，粉末冲调食品常见。", "care": "", "aliases": []},
-    {"name": "己二酸", "en": "adipic acid", "e": "E355", "cat": "酸度调节剂", "kind": "additive", "risk": 0, "what": "酸味剂，果冻粉、固体饮料常见。", "care": "", "aliases": []},
-    {"name": "氢氧化钙", "en": "calcium hydroxide", "e": "E526", "cat": "酸度调节剂", "kind": "additive", "risk": 0, "what": "熟石灰，皮蛋、玉米制品工艺用碱剂。", "care": "", "aliases": ["熟石灰"]},
-    {"name": "磷酸二氢钠", "en": "monosodium phosphate", "e": "E339i", "cat": "水分保持剂", "kind": "additive", "risk": 1, "what": "缓冲、保水，肉制品和乳制品常见。", "care": "磷酸盐类，肾功能不佳者留意总摄入。", "aliases": []},
-    {"name": "磷酸氢二钠", "en": "disodium phosphate", "e": "E339ii", "cat": "水分保持剂", "kind": "additive", "risk": 1, "what": "缓冲、保水，与磷酸二氢钠搭配使用。", "care": "磷酸盐类，肾功能不佳者留意总摄入。", "aliases": []},
-    {"name": "抗坏血酸钙", "en": "calcium ascorbate", "e": "E302", "cat": "抗氧化剂", "kind": "additive", "risk": 0, "what": "维生素C的钙盐，抗氧化兼钙强化。", "care": "", "aliases": []},
-    {"name": "麦芽酚", "en": "maltol", "e": "", "cat": "香精香料", "kind": "additive", "risk": 0, "what": "增香剂，让甜味果香更圆润，与乙基麦芽酚同类。", "care": "", "aliases": []},
-    {"name": "低聚果糖", "en": "fructooligosaccharide", "e": "", "cat": "主要原料", "kind": "ingredient", "risk": 0, "what": "益生元膳食纤维，奶粉、益生菌产品常见，也作温和甜味来源。", "care": "大量摄入可能胀气。", "aliases": ["FOS"]},
-    {"name": "菊粉", "en": "inulin", "e": "", "cat": "主要原料", "kind": "ingredient", "risk": 0, "what": "菊苣来源的益生元纤维，代餐、奶粉常见。", "care": "大量摄入可能胀气。", "aliases": ["菊苣纤维"]},
-    {"name": "抗性糊精", "en": "resistant dextrin", "e": "", "cat": "主要原料", "kind": "ingredient", "risk": 0, "what": "可溶性膳食纤维，饮料、代餐标注'纤维'的主要来源。", "care": "", "aliases": ["可溶性膳食纤维"]},
-    {"name": "牛磺酸", "en": "taurine", "e": "", "cat": "主要原料", "kind": "ingredient", "risk": 0, "what": "条件必需氨基酸，功能饮料标配成分。", "care": "", "aliases": []},
-    {"name": "胶原蛋白肽", "en": "collagen peptides", "e": "", "cat": "主要原料", "kind": "ingredient", "risk": 0, "what": "水解胶原蛋白，蛋白饮、果冻常见。", "care": "属于蛋白补充，功效宣称以产品为准。", "aliases": ["水解胶原蛋白"]},
-    {"name": "姜黄", "en": "curcumin", "e": "E100", "cat": "着色剂", "kind": "additive", "risk": 0, "what": "姜黄提取的天然黄色素，咖喱、零食常见。", "care": "", "aliases": ["姜黄素"]},
-    {"name": "胭脂虫红", "en": "carmine", "e": "E120", "cat": "着色剂", "kind": "additive", "risk": 0, "what": "胭脂虫提取的天然红色素，饮料、糖果、酸奶常见。", "care": "来源为昆虫，素食者留意。", "aliases": ["胭脂红铝色淀"]},
-    {"name": "可可壳色", "en": "cocoa husk pigment", "e": "", "cat": "着色剂", "kind": "additive", "risk": 0, "what": "可可壳提取的天然棕色色素。", "care": "", "aliases": []},
-    {"name": "普鲁兰多糖", "en": "pullulan", "e": "E1204", "cat": "被膜剂", "kind": "additive", "risk": 0, "what": "发酵法多糖，无糖糖果被膜、保鲜膜感涂层常见。", "care": "", "aliases": ["茁霉多糖"]},
-    {"name": "溶菌酶", "en": "lysozyme", "e": "E1105", "cat": "防腐剂", "kind": "additive", "risk": 0, "what": "蛋清来源的天然抗菌酶，奶酪、清酒保鲜用。", "care": "蛋清来源，蛋过敏人群留意。", "aliases": []},
-    {"name": "甘草酸一钾", "en": "monopotassium glycyrrhizinate", "e": "E958", "cat": "甜味剂", "kind": "additive", "risk": 0, "what": "甘草提取的天然甜味剂，常与甜菊糖搭配。", "care": "", "aliases": ["甘草酸铵", "甘草甜素"]},
-    {"name": "碳酸钙", "en": "calcium carbonate", "e": "E170ii", "cat": "抗结剂", "kind": "additive", "risk": 0, "what": "抗结兼钙强化，面粉、奶粉常见。", "care": "", "aliases": ["轻质碳酸钙"]},
-    {"name": "乳酸钙", "en": "calcium lactate", "e": "E327", "cat": "稳定和凝固剂", "kind": "additive", "risk": 0, "what": "钙强化剂，果冻、饮料常见。", "care": "", "aliases": []},
-    {"name": "低聚异麦芽糖", "en": "isomaltooligosaccharide", "e": "", "cat": "主要原料", "kind": "ingredient", "risk": 0, "what": "益生元糖浆，糖浆状甜味来源兼膳食纤维。", "care": "大量摄入可能胀气。", "aliases": ["IMO"]},
-    {"name": "低聚半乳糖", "en": "galactooligosaccharide", "e": "", "cat": "主要原料", "kind": "ingredient", "risk": 0, "what": "益生元膳食纤维，婴幼儿奶粉、益生菌产品常见。", "care": "大量摄入可能胀气。", "aliases": ["GOS"]},
-    {"name": "豌豆蛋白", "en": "pea protein", "e": "", "cat": "主要原料", "kind": "ingredient", "risk": 0, "what": "植物蛋白来源，植物肉、蛋白棒常见。", "care": "", "aliases": []},
-    {"name": "橄榄油", "en": "olive oil", "e": "", "cat": "油脂配料", "kind": "fat", "risk": 0, "what": "果油，脂肪酸构成较好。", "care": "", "aliases": ["特级初榨橄榄油"]},
-    {"name": "花生油", "en": "peanut oil", "e": "", "cat": "油脂配料", "kind": "fat", "risk": 0, "what": "常见食用油。", "care": "花生来源，过敏提示以包装为准。", "aliases": []},
-    {"name": "芝麻油", "en": "sesame oil", "e": "", "cat": "油脂配料", "kind": "fat", "risk": 0, "what": "香油，调味常用。", "care": "芝麻来源，过敏提示以包装为准。", "aliases": ["香油", "麻油"]},
-    {"name": "椰子油", "en": "coconut oil", "e": "", "cat": "油脂配料", "kind": "fat", "risk": 0, "what": "饱和脂肪比例较高的植物油，椰奶、植物基产品常见。", "care": "", "aliases": []},
-    {"name": "猪油", "en": "lard", "e": "", "cat": "油脂配料", "kind": "fat", "risk": 0, "what": "动物油脂，中式糕点、方便面常见。", "care": "", "aliases": ["牛油", "鸡油", "食用动物油脂"]},
-    {"name": "辛烯基琥珀酸淀粉钠", "en": "starch sodium octenylsuccinate", "e": "E1450", "cat": "增稠剂", "kind": "additive", "risk": 0, "what": "乳化型变性淀粉，奶茶植脂末、奶粉、咖啡伴侣常见。", "care": "", "aliases": ["OSA淀粉", "纯胶"]}
+    {
+      "name": "苯甲酸钠",
+      "en": "sodium benzoate",
+      "e": "E211",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "抑制细菌霉菌、延长保质期，酸性饮料、酱油、果酱里常见。",
+      "care": "国标允许限量使用。",
+      "aliases": [
+        "安息香酸钠",
+        "苯甲酸纳"
+      ]
+    },
+    {
+      "name": "苯甲酸",
+      "en": "benzoic acid",
+      "e": "E210",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "苯甲酸钠的酸形式，作用相同。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "山梨酸钾",
+      "en": "potassium sorbate",
+      "e": "E202",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "最常用的低毒防腐剂之一，面包、糕点、饮料、酱料都常见。",
+      "care": "可参与人体正常代谢，安全性评价良好。",
+      "aliases": []
+    },
+    {
+      "name": "山梨酸",
+      "en": "sorbic acid",
+      "e": "E200",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "山梨酸钾的酸形式，作用相同。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "丙酸钙",
+      "en": "calcium propionate",
+      "e": "E282",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "防霉，面包糕点里最常见的防腐剂。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "丙酸钠",
+      "en": "sodium propionate",
+      "e": "E281",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "防霉，用于糕点、豆制品等。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "脱氢乙酸钠",
+      "en": "sodium dehydroacetate",
+      "e": "E266",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 2,
+      "what": "广谱防腐，过去在腐乳、酱菜、湿面、糕点中常见。",
+      "care": "2024版国标已收窄使用范围，面包、糕点、焙烤馅料、预制肉制品等已不再允许使用。",
+      "aliases": [
+        "脱氢乙酸"
+      ]
+    },
+    {
+      "name": "双乙酸钠",
+      "en": "sodium diacetate",
+      "e": "E262ii",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "防霉兼调味（酸味来源之一），用于粮食制品、调味料。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "乳酸链球菌素",
+      "en": "nisin",
+      "e": "E234",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "乳酸菌发酵产生的天然抗菌肽，乳制品、罐头常见。",
+      "care": "属于'生物防腐'，在消化道可分解。",
+      "aliases": [
+        "乳链球菌肽"
+      ]
+    },
+    {
+      "name": "纳他霉素",
+      "en": "natamycin",
+      "e": "E235",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "天然抗真菌物质，常喷在奶酪、火腿肠表面防霉。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "二氧化碳",
+      "en": "carbon dioxide",
+      "e": "E290",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "碳酸饮料的气泡与防腐来源。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "二氧化硫",
+      "en": "sulfur dioxide",
+      "e": "E220",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "漂白、防腐、抗氧化，果干、蜜饯、葡萄酒里常见（熏硫）。",
+      "care": "少数人（尤其哮喘患者）对其敏感。",
+      "aliases": []
+    },
+    {
+      "name": "焦亚硫酸钠",
+      "en": "sodium metabisulphite",
+      "e": "E223",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "亚硫酸盐类，漂白防腐，果脯蜜饯、脱水蔬菜常见。",
+      "care": "敏感人群注意；国标要求标注亚硫酸盐。",
+      "aliases": [
+        "焦亚硫酸钾"
+      ]
+    },
+    {
+      "name": "亚硫酸钠",
+      "en": "sodium sulphite",
+      "e": "E221",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "亚硫酸盐类漂白防腐剂。",
+      "care": "敏感人群注意。",
+      "aliases": [
+        "低亚硫酸钠",
+        "保险粉"
+      ]
+    },
+    {
+      "name": "抗坏血酸",
+      "en": "ascorbic acid",
+      "e": "E300",
+      "cat": "抗氧化剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "就是维生素C，抗氧化护色，果汁、肉制品常见。",
+      "care": "",
+      "aliases": [
+        "维生素C",
+        "vc",
+        "L-抗坏血酸"
+      ]
+    },
+    {
+      "name": "抗坏血酸钠",
+      "en": "sodium ascorbate",
+      "e": "E301",
+      "cat": "抗氧化剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "维生素C的钠盐，抗氧化护色。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "抗坏血酸棕榈酸酯",
+      "en": "ascorbyl palmitate",
+      "e": "E304",
+      "cat": "抗氧化剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "脂溶性维生素C衍生物，保护油脂。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "D-异抗坏血酸钠",
+      "en": "sodium isoascorbate",
+      "e": "E316",
+      "cat": "抗氧化剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "助色抗氧化，火腿肠、腌腊肉制品里几乎必有。",
+      "care": "与亚硝酸盐配合使用护色。",
+      "aliases": [
+        "异抗坏血酸钠"
+      ]
+    },
+    {
+      "name": "维生素E",
+      "en": "tocopherol",
+      "e": "E306",
+      "cat": "抗氧化剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "天然抗氧化剂，保护油脂不哈败，也是营养强化剂。",
+      "care": "",
+      "aliases": [
+        "生育酚",
+        "dl-α-生育酚",
+        "混合生育酚浓缩物",
+        "d-α-生育酚"
+      ]
+    },
+    {
+      "name": "茶多酚",
+      "en": "tea polyphenol",
+      "e": "",
+      "cat": "抗氧化剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "从茶叶提取的天然抗氧化剂。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "迷迭香提取物",
+      "en": "rosemary extract",
+      "e": "E392",
+      "cat": "抗氧化剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "天然抗氧化剂，油脂、肉制品、膨化食品常见。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "特丁基对苯二酚",
+      "en": "TBHQ",
+      "e": "E319",
+      "cat": "抗氧化剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "合成抗氧化剂，防止油脂氧化，方便面、油炸零食常见。",
+      "care": "国标允许限量使用；高剂量动物试验有健康关注，正常饮食摄入远低于限量。",
+      "aliases": [
+        "TBHQ",
+        "叔丁基对苯二酚"
+      ]
+    },
+    {
+      "name": "丁基羟基茴香醚",
+      "en": "BHA",
+      "e": "E320",
+      "cat": "抗氧化剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "合成抗氧化剂，油脂、谷物早餐、零食常见。",
+      "care": "国标允许限量使用。",
+      "aliases": [
+        "BHA"
+      ]
+    },
+    {
+      "name": "二丁基羟基甲苯",
+      "en": "BHT",
+      "e": "E321",
+      "cat": "抗氧化剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "合成抗氧化剂，作用同BHA。",
+      "care": "国标允许限量使用。",
+      "aliases": [
+        "BHT"
+      ]
+    },
+    {
+      "name": "没食子酸丙酯",
+      "en": "propyl gallate",
+      "e": "E310",
+      "cat": "抗氧化剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "合成抗氧化剂，常与BHA/BHT搭配。",
+      "care": "",
+      "aliases": [
+        "PG",
+        "棓酸丙酯"
+      ]
+    },
+    {
+      "name": "乙二胺四乙酸二钠",
+      "en": "disodium EDTA",
+      "e": "E386",
+      "cat": "稳定剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "金属离子螯合剂，防变色变味，罐头、酱料、蛋黄酱常见。",
+      "care": "",
+      "aliases": [
+        "EDTA二钠",
+        "EDTA",
+        "edta二钠"
+      ]
+    },
+    {
+      "name": "柠檬酸",
+      "en": "citric acid",
+      "e": "E330",
+      "cat": "酸度调节剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "最常用的酸味剂，也作抗氧化增效，饮料、糖果、罐头无处不在。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "柠檬酸钠",
+      "en": "sodium citrate",
+      "e": "E331",
+      "cat": "酸度调节剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "柠檬酸的钠盐，调酸兼稳定，饮料、奶酪常见。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "柠檬酸钾",
+      "en": "potassium citrate",
+      "e": "E332",
+      "cat": "酸度调节剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "柠檬酸的钾盐，酸度调节。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "苹果酸",
+      "en": "malic acid",
+      "e": "E296",
+      "cat": "酸度调节剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "苹果酸味酸味剂，饮料、果冻常见。",
+      "care": "",
+      "aliases": [
+        "DL-苹果酸"
+      ]
+    },
+    {
+      "name": "乳酸",
+      "en": "lactic acid",
+      "e": "E270",
+      "cat": "酸度调节剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "天然发酵酸味剂，酸奶、饮料、肉制品常见。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "醋酸",
+      "en": "acetic acid",
+      "e": "E260",
+      "cat": "酸度调节剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "就是醋酸（醋的主要成分）。",
+      "care": "",
+      "aliases": [
+        "乙酸"
+      ]
+    },
+    {
+      "name": "磷酸",
+      "en": "phosphoric acid",
+      "e": "E338",
+      "cat": "酸度调节剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "可乐型饮料的特征酸味剂。",
+      "care": "磷酸盐类摄入过多会增加磷负荷，肾功能不佳者留意总摄入。",
+      "aliases": []
+    },
+    {
+      "name": "碳酸氢钠",
+      "en": "sodium bicarbonate",
+      "e": "E500ii",
+      "cat": "膨松剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "小苏打，产气膨松兼调酸。",
+      "care": "",
+      "aliases": [
+        "小苏打"
+      ]
+    },
+    {
+      "name": "碳酸钠",
+      "en": "sodium carbonate",
+      "e": "E500i",
+      "cat": "酸度调节剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "纯碱，中和酸性、改良面团的碱剂。",
+      "care": "",
+      "aliases": [
+        "苏打"
+      ]
+    },
+    {
+      "name": "碳酸氢铵",
+      "en": "ammonium bicarbonate",
+      "e": "E503",
+      "cat": "膨松剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "臭碱，烘焙后完全挥发不留残留，传统桃酥饼干常用。",
+      "care": "",
+      "aliases": [
+        "臭粉"
+      ]
+    },
+    {
+      "name": "酒石酸",
+      "en": "tartaric acid",
+      "e": "E334",
+      "cat": "酸度调节剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "葡萄里的天然酸，饮料、糖果用酸味剂。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "富马酸",
+      "en": "fumaric acid",
+      "e": "E297",
+      "cat": "酸度调节剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "酸味剂，常与柠檬酸搭配。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "葡萄糖酸-δ-内酯",
+      "en": "glucono delta-lactone",
+      "e": "E575",
+      "cat": "稳定和凝固剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "内酯豆腐的凝固剂。",
+      "care": "",
+      "aliases": [
+        "GDL",
+        "葡萄糖酸内酯"
+      ]
+    },
+    {
+      "name": "氢氧化钠",
+      "en": "sodium hydroxide",
+      "e": "E524",
+      "cat": "酸度调节剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "碱剂，皮蛋、碱水面、橄榄加工用。",
+      "care": "",
+      "aliases": [
+        "烧碱"
+      ]
+    },
+    {
+      "name": "三氯蔗糖",
+      "en": "sucralose",
+      "e": "E955",
+      "cat": "甜味剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "蔗糖衍生的无热量甜味剂，'0糖'饮料最常见。",
+      "care": "国标允许；WHO 提示代糖不是减肥的长期方案。",
+      "aliases": [
+        "蔗糖素"
+      ]
+    },
+    {
+      "name": "安赛蜜",
+      "en": "acesulfame potassium",
+      "e": "E950",
+      "cat": "甜味剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "无热量甜味剂，常与阿斯巴甜/三氯蔗糖搭配使用。",
+      "care": "",
+      "aliases": [
+        "乙酰磺胺酸钾",
+        "AK糖"
+      ]
+    },
+    {
+      "name": "阿斯巴甜",
+      "en": "aspartame",
+      "e": "E951",
+      "cat": "甜味剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "蛋白类甜味剂，无糖可乐的甜味来源之一。",
+      "care": "含苯丙氨酸，苯丙酮尿症患者不宜；国标允许限量使用。",
+      "aliases": [
+        "甜味素",
+        "阿斯巴坦"
+      ]
+    },
+    {
+      "name": "甜蜜素",
+      "en": "sodium cyclamate",
+      "e": "E952",
+      "cat": "甜味剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "无热量甜味剂，蜜饯、凉果、调味乳常见。",
+      "care": "在美国等地未获批准，我国允许限量使用。",
+      "aliases": [
+        "环己基氨基磺酸钠"
+      ]
+    },
+    {
+      "name": "糖精钠",
+      "en": "saccharin sodium",
+      "e": "E954",
+      "cat": "甜味剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "最老的合成甜味剂，蜜饯、瓜子话梅里常见。",
+      "care": "国标允许限量使用。",
+      "aliases": [
+        "糖精"
+      ]
+    },
+    {
+      "name": "纽甜",
+      "en": "neotame",
+      "e": "E961",
+      "cat": "甜味剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "阿斯巴甜衍生物，甜度极高用量极小。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "甜菊糖苷",
+      "en": "steviol glycoside",
+      "e": "E960",
+      "cat": "甜味剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "从甜叶菊提取的天然无热量甜味剂。",
+      "care": "",
+      "aliases": [
+        "甜菊糖",
+        "stevia"
+      ]
+    },
+    {
+      "name": "罗汉果甜苷",
+      "en": "monk fruit extract",
+      "e": "",
+      "cat": "甜味剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "罗汉果提取的天然甜味剂。",
+      "care": "",
+      "aliases": [
+        "罗汉果糖苷"
+      ]
+    },
+    {
+      "name": "赤藓糖醇",
+      "en": "erythritol",
+      "e": "E968",
+      "cat": "甜味剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "发酵法生产的糖醇，'0糖'饮料主力，几乎不升血糖。",
+      "care": "安全性评价良好；部分人大量摄入有轻微胃肠不适。",
+      "aliases": []
+    },
+    {
+      "name": "木糖醇",
+      "en": "xylitol",
+      "e": "E967",
+      "cat": "甜味剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "白桦/玉米芯来源的糖醇，无糖口香糖主角，不致龋。",
+      "care": "过量可能轻泻；对狗剧毒，别喂宠物。",
+      "aliases": []
+    },
+    {
+      "name": "麦芽糖醇",
+      "en": "maltitol",
+      "e": "E965",
+      "cat": "甜味剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "糖醇类甜味剂，无糖糕点、冰淇淋常见。",
+      "care": "过量可能轻泻；有一定热量。",
+      "aliases": [
+        "麦芽糖醇液",
+        "麦芽糖醇糖浆"
+      ]
+    },
+    {
+      "name": "山梨糖醇",
+      "en": "sorbitol",
+      "e": "E420",
+      "cat": "甜味剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "糖醇类，保湿兼甜味，无糖糖果、牙膏常见。",
+      "care": "过量可能轻泻。",
+      "aliases": [
+        "山梨醇"
+      ]
+    },
+    {
+      "name": "甘露糖醇",
+      "en": "mannitol",
+      "e": "E421",
+      "cat": "甜味剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "糖醇类甜味剂兼抗结。",
+      "care": "过量可能轻泻。",
+      "aliases": [
+        "甘露醇"
+      ]
+    },
+    {
+      "name": "乳糖醇",
+      "en": "lactitol",
+      "e": "E966",
+      "cat": "甜味剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "乳来源糖醇，无糖巧克力常见。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "阿洛酮糖",
+      "en": "allulose",
+      "e": "",
+      "cat": "甜味剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "稀有糖类的新型甜味剂，口感接近蔗糖。",
+      "care": "国内按新食品原料/添加剂管理推进中，以现行批准范围为准。",
+      "aliases": [
+        "D-阿洛酮糖"
+      ]
+    },
+    {
+      "name": "索马甜",
+      "en": "thaumatin",
+      "e": "E957",
+      "cat": "甜味剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "西非植物来源的天然蛋白甜味剂。",
+      "care": "",
+      "aliases": [
+        "非洲竹芋甜素"
+      ]
+    },
+    {
+      "name": "焦糖色",
+      "en": "caramel colour",
+      "e": "E150",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "糖类焦化制成的酱色色素，可乐、酱油、威士忌常见。",
+      "care": "普通法焦糖安全性良好；亚硫酸铵法焦糖存在4-甲基咪唑关注，国标均允许限量使用。",
+      "aliases": [
+        "焦糖色素",
+        "酱色"
+      ]
+    },
+    {
+      "name": "柠檬黄",
+      "en": "tartrazine",
+      "e": "E102",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "合成黄色素，饮料、糖果常见。",
+      "care": "欧盟要求标注'可能对儿童活动及注意力有不良影响'。",
+      "aliases": []
+    },
+    {
+      "name": "日落黄",
+      "en": "sunset yellow",
+      "e": "E110",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "合成橙色素，饮料、果冻、膨化食品常见。",
+      "care": "同柠檬黄，欧盟有儿童提示。",
+      "aliases": []
+    },
+    {
+      "name": "胭脂红",
+      "en": "ponceau 4R",
+      "e": "E124",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "合成红色素，饮料、蜜饯常见。",
+      "care": "同柠檬黄，欧盟有儿童提示。",
+      "aliases": []
+    },
+    {
+      "name": "苋菜红",
+      "en": "amaranth",
+      "e": "E123",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 2,
+      "what": "合成红色素。",
+      "care": "多国对儿童食品有限制要求，我国按国标限定品类使用。",
+      "aliases": []
+    },
+    {
+      "name": "赤藓红",
+      "en": "erythrosine",
+      "e": "E127",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "合成红色素，糖果、樱桃罐头常见。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "诱惑红",
+      "en": "allura red",
+      "e": "E129",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "合成红色素，肉制品、零食常见。",
+      "care": "同柠檬黄，欧盟有儿童提示。",
+      "aliases": []
+    },
+    {
+      "name": "亮蓝",
+      "en": "brilliant blue",
+      "e": "E133",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "合成蓝色素，糖果、饮料调色。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "靛蓝",
+      "en": "indigotine",
+      "e": "E132",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "合成蓝色素，常与柠檬黄调配绿色。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "β-胡萝卜素",
+      "en": "beta-carotene",
+      "e": "E160a",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "天然来源橙黄色素，也是维生素A前体。",
+      "care": "",
+      "aliases": [
+        "贝塔胡萝卜素",
+        "胡萝卜素"
+      ]
+    },
+    {
+      "name": "胭脂树橙",
+      "en": "annatto",
+      "e": "E160b",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "热带树种籽提取的天然橙黄色素，奶酪、黄油常见。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "辣椒红",
+      "en": "paprika extract",
+      "e": "E160c",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "辣椒提取的天然红色素，辣味零食、调料常见。",
+      "care": "",
+      "aliases": [
+        "辣椒橙"
+      ]
+    },
+    {
+      "name": "红曲红",
+      "en": "monascus red",
+      "e": "",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "红曲菌发酵产生的天然红色素，肉制品、腐乳常见。",
+      "care": "",
+      "aliases": [
+        "红曲米",
+        "红曲色素",
+        "红曲黄"
+      ]
+    },
+    {
+      "name": "栀子黄",
+      "en": "gardenia yellow",
+      "e": "",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "栀子果提取的天然黄色素。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "栀子蓝",
+      "en": "gardenia blue",
+      "e": "",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "栀子来源天然蓝色素。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "叶绿素铜钠盐",
+      "en": "sodium copper chlorophyllin",
+      "e": "E141ii",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "叶绿素衍生的天然绿色素，青团、糖果常见。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "二氧化钛",
+      "en": "titanium dioxide",
+      "e": "E171",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "白色素（白色覆盖力），糖果包衣、口香糖常见。",
+      "care": "欧盟自2022年起不再允许作食品着色剂；我国现行国标仍允许。",
+      "aliases": [
+        "钛白粉"
+      ]
+    },
+    {
+      "name": "植物炭黑",
+      "en": "vegetable carbon",
+      "e": "E153",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "植物炭化的黑色色素，饼干、冰淇淋调色。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "萝卜红",
+      "en": "radish red",
+      "e": "",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "红心萝卜提取的天然红色素。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "紫甘薯色素",
+      "en": "purple sweet potato colour",
+      "e": "",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "紫薯提取的天然紫红色素。",
+      "care": "",
+      "aliases": [
+        "紫甘蓝色素"
+      ]
+    },
+    {
+      "name": "番茄红素",
+      "en": "lycopene",
+      "e": "E160d",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "番茄提取的天然红色素。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "卡拉胶",
+      "en": "carrageenan",
+      "e": "E407",
+      "cat": "增稠剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "海藻提取的胶体，让酸奶果冻口感浓稠。",
+      "care": "国标不允许用于婴幼儿食品；食品级按限量使用。",
+      "aliases": []
+    },
+    {
+      "name": "刺槐豆胶",
+      "en": "locust bean gum",
+      "e": "E410",
+      "cat": "增稠剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "角豆树籽提取的天然胶，常与卡拉胶搭配。",
+      "care": "",
+      "aliases": [
+        "槐豆胶"
+      ]
+    },
+    {
+      "name": "黄原胶",
+      "en": "xanthan gum",
+      "e": "E415",
+      "cat": "增稠剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "发酵法生产的胶体，饮料、酱料、无麸质烘焙常用。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "果胶",
+      "en": "pectin",
+      "e": "E440",
+      "cat": "增稠剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "水果皮提取的天然胶，果酱、酸奶常用，也是膳食纤维。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "琼脂",
+      "en": "agar",
+      "e": "E406",
+      "cat": "增稠剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "石花菜等海藻提取，果冻、糕点常用。",
+      "care": "",
+      "aliases": [
+        "琼脂粉"
+      ]
+    },
+    {
+      "name": "海藻酸钠",
+      "en": "sodium alginate",
+      "e": "E401",
+      "cat": "增稠剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "海藻提取物，仿生食品、冰淇淋、面条常用。",
+      "care": "",
+      "aliases": [
+        "藻酸钠"
+      ]
+    },
+    {
+      "name": "结冷胶",
+      "en": "gellan gum",
+      "e": "E418",
+      "cat": "增稠剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "发酵法胶体，果冻、植物蛋白饮料常见。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "瓜尔胶",
+      "en": "guar gum",
+      "e": "E412",
+      "cat": "增稠剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "瓜尔豆提取的天然胶，冰淇淋、酱料常用。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "阿拉伯胶",
+      "en": "gum arabic",
+      "e": "E414",
+      "cat": "增稠剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "金合欢树胶，糖果包衣、饮料乳化稳定。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "塔拉胶",
+      "en": "tara gum",
+      "e": "E417",
+      "cat": "增稠剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "塔拉豆提取的天然胶。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "羧甲基纤维素钠",
+      "en": "CMC",
+      "e": "E466",
+      "cat": "增稠剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "纤维素衍生物，冰淇淋、酸奶增稠稳定。",
+      "care": "",
+      "aliases": [
+        "CMC",
+        "纤维素胶"
+      ]
+    },
+    {
+      "name": "羟丙基二淀粉磷酸酯",
+      "en": "hydroxypropyl distarch phosphate",
+      "e": "E1442",
+      "cat": "增稠剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "变性淀粉，耐热耐酸，酸奶、酱料增稠。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "乙酰化二淀粉磷酸酯",
+      "en": "acetylated distarch phosphate",
+      "e": "E1414",
+      "cat": "增稠剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "变性淀粉，增稠稳定。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "氧化淀粉",
+      "en": "oxidised starch",
+      "e": "E1404",
+      "cat": "增稠剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "变性淀粉。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "磷酸化二淀粉磷酸酯",
+      "en": "phosphated distarch phosphate",
+      "e": "E1413",
+      "cat": "增稠剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "变性淀粉。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "醋酸酯淀粉",
+      "en": "starch acetate",
+      "e": "E1420",
+      "cat": "增稠剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "变性淀粉。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "聚葡萄糖",
+      "en": "polydextrose",
+      "e": "E1200",
+      "cat": "增稠剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "同时是水溶性膳食纤维，常标注为纤维来源。",
+      "care": "过量可能轻泻。",
+      "aliases": []
+    },
+    {
+      "name": "魔芋粉",
+      "en": "konjac flour",
+      "e": "E425",
+      "cat": "增稠剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "魔芋提取物，葡甘露聚糖，果冻、仿生食品常见。",
+      "care": "果冻形式对幼儿有噎呛风险（与添加剂无关）。",
+      "aliases": [
+        "葡甘露聚糖",
+        "魔芋胶"
+      ]
+    },
+    {
+      "name": "明胶",
+      "en": "gelatin",
+      "e": "",
+      "cat": "增稠剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "动物皮骨提取的蛋白胶，软糖、酸奶、慕斯常用。",
+      "care": "来源于猪/牛/鱼，素食者与清真饮食注意。",
+      "aliases": [
+        "吉利丁"
+      ]
+    },
+    {
+      "name": "单硬脂酸甘油酯",
+      "en": "glyceryl monostearate",
+      "e": "E471",
+      "cat": "乳化剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "甘油与脂肪酸的酯，让油水不分层，烘焙、饮料极常见。",
+      "care": "",
+      "aliases": [
+        "单甘酯",
+        "单双甘油脂肪酸酯",
+        "单,双甘油脂肪酸酯"
+      ]
+    },
+    {
+      "name": "大豆磷脂",
+      "en": "soybean lecithin",
+      "e": "E322",
+      "cat": "乳化剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "大豆提取的卵磷脂，巧克力、烘焙常用，也是营养成分。",
+      "care": "大豆来源，过敏提示以包装为准。",
+      "aliases": [
+        "卵磷脂",
+        "磷脂"
+      ]
+    },
+    {
+      "name": "蔗糖脂肪酸酯",
+      "en": "sucrose ester",
+      "e": "E473",
+      "cat": "乳化剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "蔗糖与脂肪酸的酯，乳化稳定。",
+      "care": "",
+      "aliases": [
+        "蔗糖酯"
+      ]
+    },
+    {
+      "name": "聚甘油脂肪酸酯",
+      "en": "polyglycerol ester",
+      "e": "E475",
+      "cat": "乳化剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "乳化剂，冰淇淋、植物蛋白饮料常见。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "山梨醇酐单硬脂酸酯",
+      "en": "sorbitan monostearate",
+      "e": "E491",
+      "cat": "乳化剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "司盘类乳化剂。",
+      "care": "",
+      "aliases": [
+        "司盘60",
+        "span60"
+      ]
+    },
+    {
+      "name": "聚山梨酸酯80",
+      "en": "polysorbate 80",
+      "e": "E433",
+      "cat": "乳化剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "吐温类乳化剂，冰淇淋常用。",
+      "care": "",
+      "aliases": [
+        "吐温80",
+        "tween80"
+      ]
+    },
+    {
+      "name": "双乙酰酒石酸单双甘油酯",
+      "en": "DATEM",
+      "e": "E472e",
+      "cat": "乳化剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "面包常用的面团改良乳化剂。",
+      "care": "",
+      "aliases": [
+        "DATEM"
+      ]
+    },
+    {
+      "name": "硬脂酰乳酸钠",
+      "en": "sodium stearoyl lactylate",
+      "e": "E481",
+      "cat": "乳化剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "面包、馒头用的面团改良剂。",
+      "care": "",
+      "aliases": [
+        "SSL"
+      ]
+    },
+    {
+      "name": "硬脂酰乳酸钙",
+      "en": "calcium stearoyl lactylate",
+      "e": "E482",
+      "cat": "乳化剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "面团改良剂。",
+      "care": "",
+      "aliases": [
+        "CSL"
+      ]
+    },
+    {
+      "name": "酪蛋白酸钠",
+      "en": "sodium caseinate",
+      "e": "",
+      "cat": "乳化剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "乳蛋白，植脂末的蛋白来源，兼乳化增白。",
+      "care": "乳制品来源，过敏提示以包装为准。",
+      "aliases": [
+        "酪朊酸钠",
+        "酪蛋白"
+      ]
+    },
+    {
+      "name": "谷氨酸钠",
+      "en": "monosodium glutamate",
+      "e": "E621",
+      "cat": "增味剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "味精的主体，提供鲜味。",
+      "care": "",
+      "aliases": [
+        "味精",
+        "MSG"
+      ]
+    },
+    {
+      "name": "5'-呈味核苷酸二钠",
+      "en": "disodium 5'-ribonucleotide",
+      "e": "E635",
+      "cat": "增味剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "与谷氨酸钠协同增鲜（I+G），零食调料极常见。",
+      "care": "嘌呤含量高，痛风急性期人群留意。",
+      "aliases": [
+        "呈味核苷酸二钠",
+        "I+G",
+        "5'-呈味核苷酸二钠(I+G)"
+      ]
+    },
+    {
+      "name": "5'-肌苷酸二钠",
+      "en": "disodium inosinate",
+      "e": "E631",
+      "cat": "增味剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "增鲜剂。",
+      "care": "嘌呤来源，痛风人群留意。",
+      "aliases": []
+    },
+    {
+      "name": "5'-鸟苷酸二钠",
+      "en": "disodium guanylate",
+      "e": "E627",
+      "cat": "增味剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "增鲜剂。",
+      "care": "嘌呤来源，痛风人群留意。",
+      "aliases": []
+    },
+    {
+      "name": "琥珀酸二钠",
+      "en": "disodium succinate",
+      "e": "E363",
+      "cat": "增味剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "贝类风味增味剂，调味料常见。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "酵母抽提物",
+      "en": "yeast extract",
+      "e": "",
+      "cat": "增味剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "酵母分解产物，天然鲜味来源，常用于替代味精的'清洁标签'。",
+      "care": "含嘌呤与少量谷氨酸。",
+      "aliases": [
+        "酵母提取物",
+        "酵母味素"
+      ]
+    },
+    {
+      "name": "食用香精",
+      "en": "flavouring",
+      "e": "",
+      "cat": "香精香料",
+      "kind": "additive",
+      "risk": 1,
+      "what": "由多种香料组成的混合物，提供风味，饮料零食几乎无处不在。",
+      "care": "具体成分通常不逐项列明，按国标使用；追求'清洁配方'者留意。",
+      "aliases": [
+        "食用香料",
+        "香精",
+        "香料",
+        "天然香精",
+        "人工食用香精"
+      ]
+    },
+    {
+      "name": "香兰素",
+      "en": "vanillin",
+      "e": "",
+      "cat": "香精香料",
+      "kind": "additive",
+      "risk": 0,
+      "what": "香草味的主要来源，奶粉、烘焙常见。",
+      "care": "",
+      "aliases": [
+        "香草醛",
+        "乙基香兰素"
+      ]
+    },
+    {
+      "name": "乙基麦芽酚",
+      "en": "ethyl maltol",
+      "e": "",
+      "cat": "香精香料",
+      "kind": "additive",
+      "risk": 0,
+      "what": "增香剂，让甜味和果香更圆润。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "咖啡因",
+      "en": "caffeine",
+      "e": "",
+      "cat": "其他",
+      "kind": "additive",
+      "risk": 1,
+      "what": "提神成分，可乐、能量饮料、咖啡制品。",
+      "care": "儿童、孕妇及咖啡因敏感者注意摄入量。",
+      "aliases": []
+    },
+    {
+      "name": "硫酸铝钾",
+      "en": "potassium alum",
+      "e": "E522",
+      "cat": "膨松剂",
+      "kind": "additive",
+      "risk": 2,
+      "what": "钾明矾，传统油条、海蜇加工用。",
+      "care": "关注铝残留，国标对铝残留量有限量要求；无铝膨松剂已广泛替代。",
+      "aliases": [
+        "钾明矾",
+        "明矾"
+      ]
+    },
+    {
+      "name": "硫酸铝铵",
+      "en": "ammonium alum",
+      "e": "E523",
+      "cat": "膨松剂",
+      "kind": "additive",
+      "risk": 2,
+      "what": "铵明矾，作用同钾明矾。",
+      "care": "同钾明矾，关注铝残留。",
+      "aliases": [
+        "铵明矾"
+      ]
+    },
+    {
+      "name": "磷酸二氢钙",
+      "en": "monocalcium phosphate",
+      "e": "E341i",
+      "cat": "膨松剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "复合膨松剂的酸性成分，也是钙强化剂。",
+      "care": "磷酸盐类，肾功能不佳者留意总摄入。",
+      "aliases": []
+    },
+    {
+      "name": "氯化钙",
+      "en": "calcium chloride",
+      "e": "E509",
+      "cat": "稳定和凝固剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "凝固稳定剂，豆腐、果蔬脆片常见。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "硫酸钙",
+      "en": "calcium sulphate",
+      "e": "E516",
+      "cat": "稳定和凝固剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "石膏，北豆腐的传统凝固剂。",
+      "care": "",
+      "aliases": [
+        "石膏"
+      ]
+    },
+    {
+      "name": "氯化镁",
+      "en": "magnesium chloride",
+      "e": "E511",
+      "cat": "稳定和凝固剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "卤水，盐卤豆腐用。",
+      "care": "",
+      "aliases": [
+        "卤水"
+      ]
+    },
+    {
+      "name": "二氧化硅",
+      "en": "silicon dioxide",
+      "e": "E551",
+      "cat": "抗结剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "防止粉末结块，奶粉、调料、蛋白粉常见。",
+      "care": "",
+      "aliases": [
+        "硅胶"
+      ]
+    },
+    {
+      "name": "磷酸三钙",
+      "en": "tricalcium phosphate",
+      "e": "E341iii",
+      "cat": "抗结剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "抗结兼钙强化。",
+      "care": "磷酸盐类，肾功能不佳者留意总摄入。",
+      "aliases": []
+    },
+    {
+      "name": "硬脂酸镁",
+      "en": "magnesium stearate",
+      "e": "E573",
+      "cat": "抗结剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "抗结润滑剂，粉末食品、压片糖果常见。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "亚铁氰化钾",
+      "en": "potassium ferrocyanide",
+      "e": "E536",
+      "cat": "抗结剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "食盐抗结剂，名字吓人但按国标用于食盐安全性有充分保障。",
+      "care": "",
+      "aliases": [
+        "亚铁氰化钠"
+      ]
+    },
+    {
+      "name": "柠檬酸铁铵",
+      "en": "ammonium ferric citrate",
+      "e": "E381",
+      "cat": "抗结剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "食盐抗结剂。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "三聚磷酸钠",
+      "en": "sodium tripolyphosphate",
+      "e": "E451i",
+      "cat": "水分保持剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "保水增重，让肉制品多汁饱满，火腿肠、丸子常见。",
+      "care": "磷酸盐类，肾功能不佳者留意总摄入。",
+      "aliases": []
+    },
+    {
+      "name": "六偏磷酸钠",
+      "en": "sodium hexametaphosphate",
+      "e": "E452i",
+      "cat": "水分保持剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "保水、螯合、稳定，肉制品与水产加工常见。",
+      "care": "磷酸盐类，肾功能不佳者留意总摄入。",
+      "aliases": []
+    },
+    {
+      "name": "焦磷酸钠",
+      "en": "tetrasodium pyrophosphate",
+      "e": "E450i",
+      "cat": "水分保持剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "保水护色，肉制品、水产常见。",
+      "care": "磷酸盐类，肾功能不佳者留意总摄入。",
+      "aliases": []
+    },
+    {
+      "name": "复合磷酸盐",
+      "en": "compound phosphates",
+      "e": "",
+      "cat": "水分保持剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "多种磷酸盐的复配保水剂，肉制品常见。",
+      "care": "磷酸盐类，肾功能不佳者留意总摄入。",
+      "aliases": [
+        "磷酸盐"
+      ]
+    },
+    {
+      "name": "亚硝酸钠",
+      "en": "sodium nitrite",
+      "e": "E250",
+      "cat": "护色剂",
+      "kind": "additive",
+      "risk": 2,
+      "what": "让腌腊肉保持粉红色并抑制肉毒杆菌，火腿肠培根腊肉必需。",
+      "care": "国标仅允许在腌腊肉制品等限量使用；与肉中胺类可形成亚硝胺，加工肉制品建议适量食用。",
+      "aliases": []
+    },
+    {
+      "name": "硝酸钠",
+      "en": "sodium nitrate",
+      "e": "E251",
+      "cat": "护色剂",
+      "kind": "additive",
+      "risk": 2,
+      "what": "作用同亚硝酸钠，在体内可转化为亚硝酸盐。",
+      "care": "同亚硝酸钠。",
+      "aliases": []
+    },
+    {
+      "name": "虫胶",
+      "en": "shellac",
+      "e": "E904",
+      "cat": "被膜剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "紫胶虫分泌物，糖果抛光上光。",
+      "care": "来源为昆虫，素食者留意。",
+      "aliases": [
+        "紫胶片"
+      ]
+    },
+    {
+      "name": "巴西棕榈蜡",
+      "en": "carnauba wax",
+      "e": "E903",
+      "cat": "被膜剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "棕榈蜡，糖果巧克力抛光。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "果蜡",
+      "en": "fruit wax",
+      "e": "",
+      "cat": "被膜剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "柑橘苹果表面保鲜打蜡。",
+      "care": "食用前清洗或去皮即可。",
+      "aliases": [
+        "巴西棕榈蜡"
+      ]
+    },
+    {
+      "name": "转谷氨酰胺酶",
+      "en": "transglutaminase",
+      "e": "",
+      "cat": "酶制剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "TG酶，让碎肉重组成整块，火腿、肉丸、牛排加工常用。",
+      "care": "国标允许；重组肉制品应如实标注。",
+      "aliases": [
+        "TG酶"
+      ]
+    },
+    {
+      "name": "凝乳酶",
+      "en": "rennet",
+      "e": "",
+      "cat": "酶制剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "奶酪生产的核心凝乳酶。",
+      "care": "传统来源为小牛胃，也有微生物来源。",
+      "aliases": []
+    },
+    {
+      "name": "木瓜蛋白酶",
+      "en": "papain",
+      "e": "",
+      "cat": "酶制剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "嫩肉粉的主要成分，分解蛋白质让肉变嫩。",
+      "care": "",
+      "aliases": [
+        "嫩肉酶"
+      ]
+    },
+    {
+      "name": "白砂糖",
+      "en": "white sugar",
+      "e": "",
+      "cat": "糖类配料",
+      "kind": "sugar",
+      "risk": 1,
+      "what": "最常见的糖。配料表排位越靠前含量越高。",
+      "care": "WHO 建议每日游离糖低于总能量10%（约50g）。",
+      "aliases": [
+        "砂糖",
+        "蔗糖",
+        "绵白糖",
+        "冰糖",
+        "红糖",
+        "赤砂糖",
+        "方糖"
+      ]
+    },
+    {
+      "name": "葡萄糖浆",
+      "en": "glucose syrup",
+      "e": "",
+      "cat": "糖类配料",
+      "kind": "sugar",
+      "risk": 1,
+      "what": "淀粉水解的糖浆，糖果、糕点保甜保湿。",
+      "care": "",
+      "aliases": [
+        "玉米糖浆"
+      ]
+    },
+    {
+      "name": "果葡糖浆",
+      "en": "high fructose corn syrup",
+      "e": "",
+      "cat": "糖类配料",
+      "kind": "sugar",
+      "risk": 1,
+      "what": "果糖+葡萄糖的糖浆，饮料最廉价的甜味来源。",
+      "care": "含果糖，大量摄入与脂肪肝、痛风风险相关研究较多。",
+      "aliases": [
+        "高果糖浆",
+        "高果糖玉米糖浆"
+      ]
+    },
+    {
+      "name": "麦芽糖浆",
+      "en": "malt syrup",
+      "e": "",
+      "cat": "糖类配料",
+      "kind": "sugar",
+      "risk": 1,
+      "what": "麦芽糖为主的糖浆，烘焙、酿造常用。",
+      "care": "",
+      "aliases": [
+        "麦芽糖"
+      ]
+    },
+    {
+      "name": "结晶果糖",
+      "en": "crystalline fructose",
+      "e": "",
+      "cat": "糖类配料",
+      "kind": "sugar",
+      "risk": 1,
+      "what": "纯果糖，甜度高于蔗糖。",
+      "care": "果糖代谢主要在肝脏，控制总量。",
+      "aliases": [
+        "果糖"
+      ]
+    },
+    {
+      "name": "蜂蜜",
+      "en": "honey",
+      "e": "",
+      "cat": "糖类配料",
+      "kind": "sugar",
+      "risk": 0,
+      "what": "天然糖源，主要成分仍是果糖和葡萄糖。",
+      "care": "1岁以下婴儿不可食用蜂蜜。",
+      "aliases": []
+    },
+    {
+      "name": "浓缩果汁",
+      "en": "fruit juice concentrate",
+      "e": "",
+      "cat": "糖类配料",
+      "kind": "sugar",
+      "risk": 1,
+      "what": "果汁浓缩后本质上是糖浆，'果汁甜味'的来源。",
+      "care": "与添加糖等效，别当无糖看待。",
+      "aliases": [
+        "浓缩苹果汁",
+        "浓缩橙汁",
+        "浓缩葡萄汁"
+      ]
+    },
+    {
+      "name": "海藻糖",
+      "en": "trehalose",
+      "e": "",
+      "cat": "糖类配料",
+      "kind": "sugar",
+      "risk": 0,
+      "what": "甜度较低的糖，保湿护蛋白，烘焙与冻品常用。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "异麦芽酮糖",
+      "en": "isomaltulose",
+      "e": "",
+      "cat": "糖类配料",
+      "kind": "sugar",
+      "risk": 0,
+      "what": "升糖较慢的蔗糖异构体。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "乳糖",
+      "en": "lactose",
+      "e": "",
+      "cat": "糖类配料",
+      "kind": "sugar",
+      "risk": 0,
+      "what": "乳中的糖。",
+      "care": "乳糖不耐受人群留意。",
+      "aliases": []
+    },
+    {
+      "name": "氢化植物油",
+      "en": "hydrogenated vegetable oil",
+      "e": "",
+      "cat": "油脂配料",
+      "kind": "fat",
+      "risk": 2,
+      "what": "植物油加氢固化，植脂末、人造奶油的原料。",
+      "care": "工艺不彻底时含反式脂肪酸；营养成分表'反式脂肪0'指每100g≤0.3g。",
+      "aliases": [
+        "部分氢化植物油",
+        "氢化大豆油",
+        "氢化棕榈油"
+      ]
+    },
+    {
+      "name": "植脂末",
+      "en": "non-dairy creamer",
+      "e": "",
+      "cat": "油脂配料",
+      "kind": "fat",
+      "risk": 2,
+      "what": "俗称奶精，葡萄糖浆+氢化植物油+酪蛋白酸钠等做的'假奶粉'，奶茶、咖啡伴侣、烘焙常见。",
+      "care": "可能含反式脂肪酸与乳蛋白；看营养成分表反式脂肪项。",
+      "aliases": [
+        "奶精",
+        "植脂末(奶精)"
+      ]
+    },
+    {
+      "name": "人造奶油",
+      "en": "margarine",
+      "e": "",
+      "cat": "油脂配料",
+      "kind": "fat",
+      "risk": 2,
+      "what": "植物油氢化制成的'植物黄油'。",
+      "care": "关注反式脂肪酸含量；用途多为烘焙和涂抹。",
+      "aliases": [
+        "植物奶油",
+        "人造黄油",
+        "麦淇淋"
+      ]
+    },
+    {
+      "name": "起酥油",
+      "en": "shortening",
+      "e": "",
+      "cat": "油脂配料",
+      "kind": "fat",
+      "risk": 2,
+      "what": "让糕点起酥的油脂，可能采用部分氢化工艺。",
+      "care": "关注反式脂肪酸；酥皮、蛋挞、饼干常见。",
+      "aliases": []
+    },
+    {
+      "name": "代可可脂",
+      "en": "cocoa butter substitute",
+      "e": "",
+      "cat": "油脂配料",
+      "kind": "fat",
+      "risk": 2,
+      "what": "用廉价植物油模拟可可脂，'巧克力味'产品常用。",
+      "care": "可能含反式脂肪酸，且不含可可脂的有益成分；真巧克力看'可可脂'。",
+      "aliases": [
+        "类可可脂"
+      ]
+    },
+    {
+      "name": "黄油",
+      "en": "butter",
+      "e": "",
+      "cat": "油脂配料",
+      "kind": "fat",
+      "risk": 0,
+      "what": "牛奶提炼的天然油脂。",
+      "care": "乳制品来源。",
+      "aliases": [
+        "奶油",
+        "乳脂",
+        "无水奶油",
+        "稀奶油"
+      ]
+    },
+    {
+      "name": "可可脂",
+      "en": "cocoa butter",
+      "e": "",
+      "cat": "油脂配料",
+      "kind": "fat",
+      "risk": 0,
+      "what": "可可豆提取的天然油脂，真巧克力的标志。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "可可液块",
+      "en": "cocoa mass",
+      "e": "",
+      "cat": "油脂配料",
+      "kind": "fat",
+      "risk": 0,
+      "what": "可可豆研磨物，巧克力的灵魂，含量越高越'真'。",
+      "care": "",
+      "aliases": [
+        "可可粉",
+        "可可液"
+      ]
+    },
+    {
+      "name": "精炼植物油",
+      "en": "refined vegetable oil",
+      "e": "",
+      "cat": "油脂配料",
+      "kind": "fat",
+      "risk": 0,
+      "what": "通用油脂配料。",
+      "care": "多为棕榈油等，饱和脂肪比例看具体油种。",
+      "aliases": [
+        "食用植物油",
+        "植物油",
+        "棕榈油",
+        "大豆油",
+        "菜籽油",
+        "葵花籽油",
+        "玉米油"
+      ]
+    },
+    {
+      "name": "食用盐",
+      "en": "salt",
+      "e": "",
+      "cat": "调味配料",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "盐。",
+      "care": "钠摄入看营养成分表更准。",
+      "aliases": [
+        "精制盐",
+        "海盐"
+      ]
+    },
+    {
+      "name": "酱油",
+      "en": "soy sauce",
+      "e": "",
+      "cat": "调味配料",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "发酵调味料，含盐。",
+      "care": "",
+      "aliases": [
+        "酿造酱油"
+      ]
+    },
+    {
+      "name": "生牛乳",
+      "en": "raw milk",
+      "e": "",
+      "cat": "主要原料",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "未经浓缩的鲜奶，好酸奶的第一标志。",
+      "care": "乳制品。",
+      "aliases": [
+        "生乳",
+        "鲜牛奶",
+        "牛乳",
+        "纯牛奶"
+      ]
+    },
+    {
+      "name": "全脂乳粉",
+      "en": "whole milk powder",
+      "e": "",
+      "cat": "主要原料",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "奶粉，复原乳制品的原料。",
+      "care": "乳制品。",
+      "aliases": [
+        "乳粉",
+        "奶粉",
+        "脱脂乳粉",
+        "脱脂奶粉"
+      ]
+    },
+    {
+      "name": "乳清蛋白粉",
+      "en": "whey protein",
+      "e": "",
+      "cat": "主要原料",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "乳清蛋白，提高蛋白含量。",
+      "care": "乳制品。",
+      "aliases": [
+        "浓缩乳清蛋白",
+        "乳清蛋白"
+      ]
+    },
+    {
+      "name": "浓缩牛奶蛋白",
+      "en": "milk protein concentrate",
+      "e": "",
+      "cat": "主要原料",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "牛奶蛋白浓缩物。",
+      "care": "乳制品。",
+      "aliases": [
+        "牛奶蛋白"
+      ]
+    },
+    {
+      "name": "小麦粉",
+      "en": "wheat flour",
+      "e": "",
+      "cat": "主要原料",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "面粉。",
+      "care": "含麸质。",
+      "aliases": [
+        "面粉",
+        "高筋小麦粉",
+        "低筋小麦粉",
+        "全麦粉"
+      ]
+    },
+    {
+      "name": "麦芽糊精",
+      "en": "maltodextrin",
+      "e": "",
+      "cat": "主要原料",
+      "kind": "ingredient",
+      "risk": 1,
+      "what": "淀粉水解物，填充增稠，升糖快。",
+      "care": "血糖管理人群留意。",
+      "aliases": []
+    },
+    {
+      "name": "大豆蛋白",
+      "en": "soy protein",
+      "e": "",
+      "cat": "主要原料",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "植物蛋白来源。",
+      "care": "大豆来源。",
+      "aliases": [
+        "大豆分离蛋白",
+        "大豆蛋白粉"
+      ]
+    },
+    {
+      "name": "水",
+      "en": "water",
+      "e": "",
+      "cat": "主要原料",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "水，饮料配料表第一位很正常。",
+      "care": "",
+      "aliases": [
+        "饮用水",
+        "生活饮用水",
+        "纯净水"
+      ]
+    },
+    {
+      "name": "益生菌",
+      "en": "probiotics",
+      "e": "",
+      "cat": "主要原料",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "发酵菌种，如保加利亚乳杆菌、嗜热链球菌等。",
+      "care": "",
+      "aliases": [
+        "嗜热链球菌",
+        "保加利亚乳杆菌",
+        "双歧杆菌",
+        "乳酸菌",
+        "嗜酸乳杆菌",
+        "鼠李糖乳杆菌"
+      ]
+    },
+    {
+      "name": "聚甘油蓖麻醇酸酯",
+      "en": "polyglycerol polyricinoleate",
+      "e": "E476",
+      "cat": "乳化剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "巧克力专用乳化剂，让可可浆更顺滑、省可可脂。",
+      "care": "",
+      "aliases": [
+        "PGPR"
+      ]
+    },
+    {
+      "name": "葡萄糖",
+      "en": "glucose",
+      "e": "",
+      "cat": "糖类配料",
+      "kind": "sugar",
+      "risk": 1,
+      "what": "单糖，甜度低于蔗糖，常作填充和甜味来源。",
+      "care": "",
+      "aliases": [
+        "无水葡萄糖",
+        "液体葡萄糖"
+      ]
+    },
+    {
+      "name": "水解植物蛋白",
+      "en": "hydrolyzed vegetable protein",
+      "e": "",
+      "cat": "增味剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "植物蛋白水解物，天然增鲜原料，酱油、调料常见。",
+      "care": "常以大豆/小麦为原料，过敏人群看包装标注。",
+      "aliases": [
+        "植物水解蛋白",
+        "水解蛋白"
+      ]
+    },
+    {
+      "name": "变性淀粉",
+      "en": "modified starch",
+      "e": "",
+      "cat": "增稠剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "改性淀粉，增稠稳定，酱料、肉制品常见。",
+      "care": "",
+      "aliases": [
+        "修饰淀粉"
+      ]
+    },
+    {
+      "name": "乳酸钠",
+      "en": "sodium lactate",
+      "e": "E325",
+      "cat": "水分保持剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "保湿兼防腐增效，肉制品保鲜常见。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "丙二醇",
+      "en": "propylene glycol",
+      "e": "E1520",
+      "cat": "稳定剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "保湿剂/载体，糕点、湿面、香精溶剂常见。",
+      "care": "国标按品类限量使用。",
+      "aliases": []
+    },
+    {
+      "name": "氯化钾",
+      "en": "potassium chloride",
+      "e": "E508",
+      "cat": "酸度调节剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "低钠盐的'减盐'成分，替代部分咸味。",
+      "care": "肾功能不佳者遵医嘱控制钾摄入。",
+      "aliases": []
+    },
+    {
+      "name": "甘氨酸",
+      "en": "glycine",
+      "e": "E640",
+      "cat": "增味剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "带甜味的氨基酸，调料、速食汤增味缓冲。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "甜菜红",
+      "en": "beetroot red",
+      "e": "E162",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "红甜菜提取的天然红色素，酸奶、糖果常见。",
+      "care": "",
+      "aliases": [
+        "甜菜根红"
+      ]
+    },
+    {
+      "name": "葡萄皮红",
+      "en": "anthocyanins",
+      "e": "E163",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "葡萄皮提取的花青素类天然色素。",
+      "care": "",
+      "aliases": [
+        "花青素",
+        "葡萄皮提取物"
+      ]
+    },
+    {
+      "name": "高粱红",
+      "en": "sorghum red",
+      "e": "",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "高粱壳提取的天然色素。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "微晶纤维素",
+      "en": "microcrystalline cellulose",
+      "e": "E460",
+      "cat": "抗结剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "纤维素粉末，抗结、增稠、替代脂肪口感，常见于即食粉、奶酪。",
+      "care": "不溶性膳食纤维，不被人体吸收。",
+      "aliases": [
+        "MCC"
+      ]
+    },
+    {
+      "name": "甲基纤维素",
+      "en": "methyl cellulose",
+      "e": "E461",
+      "cat": "增稠剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "纤维素衍生物，增稠凝胶。",
+      "care": "",
+      "aliases": [
+        "MC"
+      ]
+    },
+    {
+      "name": "羟丙基甲基纤维素",
+      "en": "hypromellose",
+      "e": "E464",
+      "cat": "增稠剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "纤维素衍生物，素食胶囊壳、烘焙保湿常用。",
+      "care": "",
+      "aliases": [
+        "HPMC",
+        "羟丙甲纤维素"
+      ]
+    },
+    {
+      "name": "羟丙基淀粉",
+      "en": "hydroxypropyl starch",
+      "e": "E1440",
+      "cat": "增稠剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "变性淀粉，增稠稳定。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "硅酸钙",
+      "en": "calcium silicate",
+      "e": "E552",
+      "cat": "抗结剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "抗结块，粉末食品、调味料常见。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "硅铝酸钠",
+      "en": "sodium aluminosilicate",
+      "e": "E554",
+      "cat": "抗结剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "抗结块，粉末冲调食品常见。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "己二酸",
+      "en": "adipic acid",
+      "e": "E355",
+      "cat": "酸度调节剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "酸味剂，果冻粉、固体饮料常见。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "氢氧化钙",
+      "en": "calcium hydroxide",
+      "e": "E526",
+      "cat": "酸度调节剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "熟石灰，皮蛋、玉米制品工艺用碱剂。",
+      "care": "",
+      "aliases": [
+        "熟石灰"
+      ]
+    },
+    {
+      "name": "磷酸二氢钠",
+      "en": "monosodium phosphate",
+      "e": "E339i",
+      "cat": "水分保持剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "缓冲、保水，肉制品和乳制品常见。",
+      "care": "磷酸盐类，肾功能不佳者留意总摄入。",
+      "aliases": []
+    },
+    {
+      "name": "磷酸氢二钠",
+      "en": "disodium phosphate",
+      "e": "E339ii",
+      "cat": "水分保持剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "缓冲、保水，与磷酸二氢钠搭配使用。",
+      "care": "磷酸盐类，肾功能不佳者留意总摄入。",
+      "aliases": []
+    },
+    {
+      "name": "抗坏血酸钙",
+      "en": "calcium ascorbate",
+      "e": "E302",
+      "cat": "抗氧化剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "维生素C的钙盐，抗氧化兼钙强化。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "麦芽酚",
+      "en": "maltol",
+      "e": "",
+      "cat": "香精香料",
+      "kind": "additive",
+      "risk": 0,
+      "what": "增香剂，让甜味果香更圆润，与乙基麦芽酚同类。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "低聚果糖",
+      "en": "fructooligosaccharide",
+      "e": "",
+      "cat": "主要原料",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "益生元膳食纤维，奶粉、益生菌产品常见，也作温和甜味来源。",
+      "care": "大量摄入可能胀气。",
+      "aliases": [
+        "FOS"
+      ]
+    },
+    {
+      "name": "菊粉",
+      "en": "inulin",
+      "e": "",
+      "cat": "主要原料",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "菊苣来源的益生元纤维，代餐、奶粉常见。",
+      "care": "大量摄入可能胀气。",
+      "aliases": [
+        "菊苣纤维"
+      ]
+    },
+    {
+      "name": "抗性糊精",
+      "en": "resistant dextrin",
+      "e": "",
+      "cat": "主要原料",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "可溶性膳食纤维，饮料、代餐标注'纤维'的主要来源。",
+      "care": "",
+      "aliases": [
+        "可溶性膳食纤维"
+      ]
+    },
+    {
+      "name": "牛磺酸",
+      "en": "taurine",
+      "e": "",
+      "cat": "主要原料",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "条件必需氨基酸，功能饮料标配成分。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "胶原蛋白肽",
+      "en": "collagen peptides",
+      "e": "",
+      "cat": "主要原料",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "水解胶原蛋白，蛋白饮、果冻常见。",
+      "care": "属于蛋白补充，功效宣称以产品为准。",
+      "aliases": [
+        "水解胶原蛋白"
+      ]
+    },
+    {
+      "name": "姜黄",
+      "en": "curcumin",
+      "e": "E100",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "姜黄提取的天然黄色素，咖喱、零食常见。",
+      "care": "",
+      "aliases": [
+        "姜黄素"
+      ]
+    },
+    {
+      "name": "胭脂虫红",
+      "en": "carmine",
+      "e": "E120",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "胭脂虫提取的天然红色素，饮料、糖果、酸奶常见。",
+      "care": "来源为昆虫，素食者留意。",
+      "aliases": [
+        "胭脂红铝色淀"
+      ]
+    },
+    {
+      "name": "可可壳色",
+      "en": "cocoa husk pigment",
+      "e": "",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "可可壳提取的天然棕色色素。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "普鲁兰多糖",
+      "en": "pullulan",
+      "e": "E1204",
+      "cat": "被膜剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "发酵法多糖，无糖糖果被膜、保鲜膜感涂层常见。",
+      "care": "",
+      "aliases": [
+        "茁霉多糖"
+      ]
+    },
+    {
+      "name": "溶菌酶",
+      "en": "lysozyme",
+      "e": "E1105",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "蛋清来源的天然抗菌酶，奶酪、清酒保鲜用。",
+      "care": "蛋清来源，蛋过敏人群留意。",
+      "aliases": []
+    },
+    {
+      "name": "甘草酸一钾",
+      "en": "monopotassium glycyrrhizinate",
+      "e": "E958",
+      "cat": "甜味剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "甘草提取的天然甜味剂，常与甜菊糖搭配。",
+      "care": "",
+      "aliases": [
+        "甘草酸铵",
+        "甘草甜素"
+      ]
+    },
+    {
+      "name": "碳酸钙",
+      "en": "calcium carbonate",
+      "e": "E170ii",
+      "cat": "抗结剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "抗结兼钙强化，面粉、奶粉常见。",
+      "care": "",
+      "aliases": [
+        "轻质碳酸钙"
+      ]
+    },
+    {
+      "name": "乳酸钙",
+      "en": "calcium lactate",
+      "e": "E327",
+      "cat": "稳定和凝固剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "钙强化剂，果冻、饮料常见。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "低聚异麦芽糖",
+      "en": "isomaltooligosaccharide",
+      "e": "",
+      "cat": "主要原料",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "益生元糖浆，糖浆状甜味来源兼膳食纤维。",
+      "care": "大量摄入可能胀气。",
+      "aliases": [
+        "IMO"
+      ]
+    },
+    {
+      "name": "低聚半乳糖",
+      "en": "galactooligosaccharide",
+      "e": "",
+      "cat": "主要原料",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "益生元膳食纤维，婴幼儿奶粉、益生菌产品常见。",
+      "care": "大量摄入可能胀气。",
+      "aliases": [
+        "GOS"
+      ]
+    },
+    {
+      "name": "豌豆蛋白",
+      "en": "pea protein",
+      "e": "",
+      "cat": "主要原料",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "植物蛋白来源，植物肉、蛋白棒常见。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "橄榄油",
+      "en": "olive oil",
+      "e": "",
+      "cat": "油脂配料",
+      "kind": "fat",
+      "risk": 0,
+      "what": "果油，脂肪酸构成较好。",
+      "care": "",
+      "aliases": [
+        "特级初榨橄榄油"
+      ]
+    },
+    {
+      "name": "花生油",
+      "en": "peanut oil",
+      "e": "",
+      "cat": "油脂配料",
+      "kind": "fat",
+      "risk": 0,
+      "what": "常见食用油。",
+      "care": "花生来源，过敏提示以包装为准。",
+      "aliases": []
+    },
+    {
+      "name": "芝麻油",
+      "en": "sesame oil",
+      "e": "",
+      "cat": "油脂配料",
+      "kind": "fat",
+      "risk": 0,
+      "what": "香油，调味常用。",
+      "care": "芝麻来源，过敏提示以包装为准。",
+      "aliases": [
+        "香油",
+        "麻油"
+      ]
+    },
+    {
+      "name": "椰子油",
+      "en": "coconut oil",
+      "e": "",
+      "cat": "油脂配料",
+      "kind": "fat",
+      "risk": 0,
+      "what": "饱和脂肪比例较高的植物油，椰奶、植物基产品常见。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "猪油",
+      "en": "lard",
+      "e": "",
+      "cat": "油脂配料",
+      "kind": "fat",
+      "risk": 0,
+      "what": "动物油脂，中式糕点、方便面常见。",
+      "care": "",
+      "aliases": [
+        "牛油",
+        "鸡油",
+        "食用动物油脂"
+      ]
+    },
+    {
+      "name": "辛烯基琥珀酸淀粉钠",
+      "en": "starch sodium octenylsuccinate",
+      "e": "E1450",
+      "cat": "增稠剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "乳化型变性淀粉，奶茶植脂末、奶粉、咖啡伴侣常见。",
+      "care": "",
+      "aliases": [
+        "OSA淀粉",
+        "纯胶"
+      ]
+    },
+    {
+      "name": "新红",
+      "en": "new red",
+      "e": "",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "我国批准的合成红色素，糖果、饮料调色用。",
+      "care": "合成色素，国标按品类限量使用。",
+      "aliases": [
+        "新红铝色淀"
+      ]
+    },
+    {
+      "name": "酸性红",
+      "en": "carmoisine",
+      "e": "E122",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "合成红色素（偶氮玉红），糖果、饮料调色用。",
+      "care": "欧盟要求标注'可能对儿童活动及注意力有不良影响'。",
+      "aliases": [
+        "偶氮玉红"
+      ]
+    },
+    {
+      "name": "落葵红",
+      "en": "basella red",
+      "e": "",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "落葵果实提取的天然红色素，糖果、果冻用。",
+      "care": "2024版国标已删除该品种，现售包装若标注请以监管部门信息为准。",
+      "aliases": []
+    },
+    {
+      "name": "密蒙黄",
+      "en": "buddleia yellow",
+      "e": "",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "密蒙花提取的天然黄色素，饮料、糖果用。",
+      "care": "2024版国标已删除该品种，现售包装若标注请以监管部门信息为准。",
+      "aliases": []
+    },
+    {
+      "name": "玫瑰茄红",
+      "en": "roselle red",
+      "e": "",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "玫瑰茄（洛神花）萼片提取的天然红色素。",
+      "care": "",
+      "aliases": [
+        "洛神花红"
+      ]
+    },
+    {
+      "name": "桑椹红",
+      "en": "mulberry red",
+      "e": "",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "桑椹果提取的天然红色素。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "天然苋菜红",
+      "en": "natural amaranth colour",
+      "e": "",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "苋菜叶提取的天然红色素。",
+      "care": "植物来源，与合成色素'苋菜红'（E123）不是同一物质。",
+      "aliases": []
+    },
+    {
+      "name": "黑加仑红",
+      "en": "blackcurrant red",
+      "e": "",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "黑加仑果提取的天然红色素，饮料、糖果用。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "红花黄",
+      "en": "safflower yellow",
+      "e": "",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "红花提取的天然黄色素，饮料、蜜饯常用。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "藻蓝",
+      "en": "phycocyanin",
+      "e": "",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "螺旋藻提取的天然蓝色素，植物基产品常用。",
+      "care": "",
+      "aliases": [
+        "螺旋藻蓝",
+        "海藻蓝"
+      ]
+    },
+    {
+      "name": "紫胶红",
+      "en": "lac dye",
+      "e": "",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "紫胶虫分泌物中的天然红色素，饮料、糖果用。",
+      "care": "来源为昆虫，素食者留意。",
+      "aliases": [
+        "虫胶红"
+      ]
+    },
+    {
+      "name": "叶黄素",
+      "en": "lutein",
+      "e": "E161b",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "万寿菊来源的天然橙黄色素，也是常见护眼成分。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "氧化铁黑",
+      "en": "iron oxide black",
+      "e": "E172",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "黑色无机色素，糖果包衣调色，不被人体吸收。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "异麦芽酮糖醇",
+      "en": "isomalt",
+      "e": "E953",
+      "cat": "甜味剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "糖醇类甜味剂，无糖硬糖最常用，入口有清凉感。",
+      "care": "过量可能轻泻。",
+      "aliases": [
+        "异麦芽糖醇",
+        "氢化异麦芽酮糖"
+      ]
+    },
+    {
+      "name": "阿力甜",
+      "en": "alitame",
+      "e": "",
+      "cat": "甜味剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "二肽类高倍甜味剂，甜度极高、用量极小。",
+      "care": "国标允许限量使用。",
+      "aliases": []
+    },
+    {
+      "name": "爱德万甜",
+      "en": "advantame",
+      "e": "E969",
+      "cat": "甜味剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "阿斯巴甜衍生的超甜甜味剂，甜度极高用量极微。",
+      "care": "国标允许限量使用。",
+      "aliases": []
+    },
+    {
+      "name": "阿斯巴甜-乙酰磺胺酸盐",
+      "en": "aspartame-acesulfame salt",
+      "e": "E962",
+      "cat": "甜味剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "阿斯巴甜与安赛蜜结合成的盐，兼具两者特性。",
+      "care": "含苯丙氨酸，苯丙酮尿症患者不宜。",
+      "aliases": [
+        "阿斯巴甜乙酰磺胺酸盐"
+      ]
+    },
+    {
+      "name": "甘草酸三钾",
+      "en": "tripotassium glycyrrhizinate",
+      "e": "",
+      "cat": "甜味剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "甘草来源的天然甜味剂，甘草酸一钾的同类物。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "水解动物蛋白",
+      "en": "hydrolyzed animal protein",
+      "e": "",
+      "cat": "增味剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "动物蛋白水解物，天然增鲜原料，调味料常见。",
+      "care": "多为猪、牛、鸡等来源，忌口与过敏人群看包装标注。",
+      "aliases": [
+        "动物水解蛋白",
+        "HAP"
+      ]
+    },
+    {
+      "name": "L-丙氨酸",
+      "en": "L-alanine",
+      "e": "",
+      "cat": "增味剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "带甜味的氨基酸，复合调味料增味、缓冲用。",
+      "care": "",
+      "aliases": [
+        "丙氨酸"
+      ]
+    },
+    {
+      "name": "α-淀粉酶",
+      "en": "alpha-amylase",
+      "e": "",
+      "cat": "酶制剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "把淀粉切成短链的酶，面包改良常用，帮助蓬松。",
+      "care": "多由微生物发酵生产，加工后基本失活。",
+      "aliases": []
+    },
+    {
+      "name": "糖化酶",
+      "en": "glucoamylase",
+      "e": "",
+      "cat": "酶制剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "把淀粉变成葡萄糖的酶，淀粉糖与酿造生产用。",
+      "care": "多由微生物发酵生产，加工后基本失活。",
+      "aliases": [
+        "葡萄糖淀粉酶"
+      ]
+    },
+    {
+      "name": "葡萄糖氧化酶",
+      "en": "glucose oxidase",
+      "e": "",
+      "cat": "酶制剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "消耗葡萄糖和氧的酶，蛋清脱糖、面粉增筋用。",
+      "care": "多由微生物发酵生产，加工后基本失活。",
+      "aliases": []
+    },
+    {
+      "name": "脂肪酶",
+      "en": "lipase",
+      "e": "E1104",
+      "cat": "酶制剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "分解油脂的酶，面包风味改良、奶酪风味用。",
+      "care": "多由微生物发酵生产，加工后基本失活。",
+      "aliases": []
+    },
+    {
+      "name": "蛋白酶",
+      "en": "protease",
+      "e": "",
+      "cat": "酶制剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "分解蛋白质的酶，嫩肉、酿造、调味料生产用。",
+      "care": "多由微生物发酵生产，加工后基本失活。",
+      "aliases": []
+    },
+    {
+      "name": "乳糖酶",
+      "en": "lactase",
+      "e": "",
+      "cat": "酶制剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "分解乳糖的酶，低乳糖牛奶的核心工艺。",
+      "care": "多由微生物发酵生产，加工后基本失活。",
+      "aliases": []
+    },
+    {
+      "name": "果胶酶",
+      "en": "pectinase",
+      "e": "",
+      "cat": "酶制剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "分解果胶的酶，果汁澄清、酿酒常用。",
+      "care": "多由微生物发酵生产，加工后基本失活。",
+      "aliases": []
+    },
+    {
+      "name": "纤维素酶",
+      "en": "cellulase",
+      "e": "",
+      "cat": "酶制剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "分解纤维素的酶，果汁提取、烘焙改良用。",
+      "care": "多由微生物发酵生产，加工后基本失活。",
+      "aliases": []
+    },
+    {
+      "name": "吗啉脂肪酸盐果蜡",
+      "en": "morpholine fatty acid salt fruit wax",
+      "e": "",
+      "cat": "被膜剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "合成果蜡，柑橘类水果打蜡保鲜最常见。",
+      "care": "用于果皮表面，食用前清洗、去皮即可。",
+      "aliases": [
+        "吗啉脂肪酸盐"
+      ]
+    },
+    {
+      "name": "白油",
+      "en": "white mineral oil",
+      "e": "E905a",
+      "cat": "被膜剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "食品级液体石蜡，糖果抛光防粘、蛋壳保鲜用。",
+      "care": "高纯度食品级矿物油，按国标限量使用。",
+      "aliases": [
+        "液体石蜡",
+        "石蜡油"
+      ]
+    },
+    {
+      "name": "蜂蜡",
+      "en": "beeswax",
+      "e": "E901",
+      "cat": "被膜剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "蜜蜂分泌的天然蜡，糖果巧克力抛光、水果保鲜。",
+      "care": "来源为昆虫，严格素食者留意。",
+      "aliases": [
+        "白蜂蜡",
+        "黄蜂蜡"
+      ]
+    },
+    {
+      "name": "松香季戊四醇酯",
+      "en": "pentaerythritol ester of rosin",
+      "e": "",
+      "cat": "被膜剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "松香衍生物，柑橘类保鲜打蜡被膜用。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "聚二甲基硅氧烷",
+      "en": "dimethyl polysiloxane",
+      "e": "E900",
+      "cat": "消泡剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "有机硅消泡剂，油脂加工、口香糖胶基常见。",
+      "care": "",
+      "aliases": [
+        "二甲基硅油",
+        "聚二甲基硅氧烷液"
+      ]
+    },
+    {
+      "name": "松香甘油酯",
+      "en": "glycerol ester of wood rosin",
+      "e": "E445",
+      "cat": "乳化剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "柑橘味汽水的'起云剂'，让浊度均匀不分层。",
+      "care": "",
+      "aliases": [
+        "酯胶"
+      ]
+    },
+    {
+      "name": "亚硒酸钠",
+      "en": "sodium selenite",
+      "e": "",
+      "cat": "营养强化剂",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "硒强化剂，奶粉、营养粉常见。",
+      "care": "",
+      "aliases": [
+        "硒酸钠"
+      ]
+    },
+    {
+      "name": "碘酸钾",
+      "en": "potassium iodate",
+      "e": "",
+      "cat": "营养强化剂",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "碘强化剂，加碘盐和奶粉常见。",
+      "care": "甲状腺疾病人群碘摄入遵医嘱。",
+      "aliases": [
+        "碘化钾"
+      ]
+    },
+    {
+      "name": "硫酸亚铁",
+      "en": "ferrous sulphate",
+      "e": "",
+      "cat": "营养强化剂",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "铁强化剂，奶粉、营养粉常见。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "焦磷酸铁",
+      "en": "ferric pyrophosphate",
+      "e": "",
+      "cat": "营养强化剂",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "无铁腥味的铁强化剂，奶粉常见。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "硫酸锌",
+      "en": "zinc sulphate",
+      "e": "",
+      "cat": "营养强化剂",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "锌强化剂。",
+      "care": "",
+      "aliases": [
+        "葡萄糖酸锌",
+        "乳酸锌"
+      ]
+    },
+    {
+      "name": "硫酸铜",
+      "en": "copper sulphate",
+      "e": "",
+      "cat": "营养强化剂",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "铜强化剂（微量）。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "硫酸锰",
+      "en": "manganese sulphate",
+      "e": "",
+      "cat": "营养强化剂",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "锰强化剂（微量）。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "D-泛酸钙",
+      "en": "calcium pantothenate",
+      "e": "",
+      "cat": "营养强化剂",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "泛酸（维生素B5）强化剂。",
+      "care": "",
+      "aliases": [
+        "泛酸钙"
+      ]
+    },
+    {
+      "name": "肌醇",
+      "en": "inositol",
+      "e": "",
+      "cat": "营养强化剂",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "维生素B族相关成分，奶粉常见。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "胆碱",
+      "en": "choline",
+      "e": "",
+      "cat": "营养强化剂",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "婴幼儿奶粉标配营养成分。",
+      "care": "",
+      "aliases": [
+        "氯化胆碱",
+        "酒石酸胆碱"
+      ]
+    },
+    {
+      "name": "D-生物素",
+      "en": "biotin",
+      "e": "",
+      "cat": "营养强化剂",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "生物素（维生素B7）。",
+      "care": "",
+      "aliases": [
+        "生物素"
+      ]
+    },
+    {
+      "name": "中链甘油三酯",
+      "en": "medium chain triglycerides",
+      "e": "",
+      "cat": "油脂配料",
+      "kind": "fat",
+      "risk": 0,
+      "what": "MCT油，吸收快的脂肪，奶粉、功能饮常见。",
+      "care": "",
+      "aliases": [
+        "MCT",
+        "中链甘油三酸酯"
+      ]
+    },
+    {
+      "name": "1,3-二油酸-2-棕榈酸甘油三酯",
+      "en": "OPO",
+      "e": "",
+      "cat": "油脂配料",
+      "kind": "fat",
+      "risk": 0,
+      "what": "OPO结构脂，模仿母乳脂肪结构，婴幼儿奶粉卖点成分。",
+      "care": "",
+      "aliases": [
+        "OPO"
+      ]
+    },
+    {
+      "name": "花生四烯酸油脂",
+      "en": "arachidonic acid oil",
+      "e": "",
+      "cat": "油脂配料",
+      "kind": "fat",
+      "risk": 0,
+      "what": "ARA，婴幼儿奶粉必需脂肪酸。",
+      "care": "",
+      "aliases": [
+        "ARA"
+      ]
+    },
+    {
+      "name": "二十二碳六烯酸油脂",
+      "en": "DHA oil",
+      "e": "",
+      "cat": "油脂配料",
+      "kind": "fat",
+      "risk": 0,
+      "what": "DHA藻油，婴幼儿奶粉和孕妇奶粉常见。",
+      "care": "",
+      "aliases": [
+        "DHA",
+        "藻油DHA"
+      ]
+    },
+    {
+      "name": "酪蛋白磷酸肽",
+      "en": "casein phosphopeptides",
+      "e": "",
+      "cat": "主要原料",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "CPP，促进钙吸收的乳源肽。",
+      "care": "乳制品来源。",
+      "aliases": [
+        "CPP"
+      ]
+    },
+    {
+      "name": "乳铁蛋白",
+      "en": "lactoferrin",
+      "e": "",
+      "cat": "主要原料",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "乳源蛋白，婴幼儿奶粉高端卖点成分。",
+      "care": "乳制品来源。",
+      "aliases": []
+    },
+    {
+      "name": "酵母β-葡聚糖",
+      "en": "yeast beta-glucan",
+      "e": "",
+      "cat": "主要原料",
+      "kind": "ingredient",
+      "risk": 0,
+      "what": "酵母来源免疫调节成分，奶粉常见。",
+      "care": "",
+      "aliases": [
+        "β-葡聚糖"
+      ]
+    },
+    {
+      "name": "碳酸钾",
+      "en": "potassium carbonate",
+      "e": "E501i",
+      "cat": "酸度调节剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "碱剂，面条、可可加工用。",
+      "care": "",
+      "aliases": []
+    }
   ],
   "allergens": [
-    {"key": "乳", "match": ["乳", "奶", "酪蛋白", "乳清", "黄油", "奶油", "乳脂"], "exclude": ["植物奶油", "植脂末", "人造奶油", "植物黄油", "豆奶", "椰奶", "燕麦奶", "奶油味"]},
-    {"key": "含麸质谷物", "match": ["小麦", "面粉", "大麦", "黑麦", "燕麦", "麸质", "面筋", "麦芽"], "exclude": ["麦芽糖醇"]},
-    {"key": "大豆", "match": ["大豆", "黄豆", "豆油", "大豆磷脂", "大豆蛋白", "卵磷脂", "磷脂"], "exclude": ["土豆", "四季豆", "豇豆", "绿豆", "红豆", "芸豆", "豌豆", "扁豆", "蚕豆", "鹰嘴豆", "豆奶"]},
-    {"key": "蛋", "match": ["鸡蛋", "蛋黄", "蛋清", "蛋粉", "全蛋", "蛋液"], "exclude": []},
-    {"key": "花生", "match": ["花生"], "exclude": []},
-    {"key": "坚果", "match": ["核桃", "杏仁", "榛子", "腰果", "开心果", "夏威夷果", "巴旦木", "松子", "坚果"], "exclude": []},
-    {"key": "鱼", "match": ["鱼"], "exclude": ["鱼腥草"]},
-    {"key": "甲壳纲", "match": ["虾", "蟹", "龙虾"], "exclude": []},
-    {"key": "芝麻", "match": ["芝麻", "香油", "芝麻油", "麻酱"], "exclude": []}
+    {
+      "key": "乳",
+      "match": [
+        "乳",
+        "奶",
+        "酪蛋白",
+        "乳清",
+        "黄油",
+        "奶油",
+        "乳脂"
+      ],
+      "exclude": [
+        "植物奶油",
+        "植脂末",
+        "人造奶油",
+        "植物黄油",
+        "豆奶",
+        "椰奶",
+        "燕麦奶",
+        "奶油味"
+      ]
+    },
+    {
+      "key": "含麸质谷物",
+      "match": [
+        "小麦",
+        "面粉",
+        "大麦",
+        "黑麦",
+        "燕麦",
+        "麸质",
+        "面筋",
+        "麦芽"
+      ],
+      "exclude": [
+        "麦芽糖醇"
+      ]
+    },
+    {
+      "key": "大豆",
+      "match": [
+        "大豆",
+        "黄豆",
+        "豆油",
+        "大豆磷脂",
+        "大豆蛋白",
+        "卵磷脂",
+        "磷脂"
+      ],
+      "exclude": [
+        "土豆",
+        "四季豆",
+        "豇豆",
+        "绿豆",
+        "红豆",
+        "芸豆",
+        "豌豆",
+        "扁豆",
+        "蚕豆",
+        "鹰嘴豆",
+        "豆奶"
+      ]
+    },
+    {
+      "key": "蛋",
+      "match": [
+        "鸡蛋",
+        "蛋黄",
+        "蛋清",
+        "蛋粉",
+        "全蛋",
+        "蛋液"
+      ],
+      "exclude": []
+    },
+    {
+      "key": "花生",
+      "match": [
+        "花生"
+      ],
+      "exclude": []
+    },
+    {
+      "key": "坚果",
+      "match": [
+        "核桃",
+        "杏仁",
+        "榛子",
+        "腰果",
+        "开心果",
+        "夏威夷果",
+        "巴旦木",
+        "松子",
+        "坚果"
+      ],
+      "exclude": []
+    },
+    {
+      "key": "鱼",
+      "match": [
+        "鱼"
+      ],
+      "exclude": [
+        "鱼腥草"
+      ]
+    },
+    {
+      "key": "甲壳纲",
+      "match": [
+        "虾",
+        "蟹",
+        "龙虾"
+      ],
+      "exclude": []
+    },
+    {
+      "key": "芝麻",
+      "match": [
+        "芝麻",
+        "香油",
+        "芝麻油",
+        "麻酱"
+      ],
+      "exclude": []
+    }
   ],
-  "trans_fat_keywords": ["氢化", "植脂末", "人造奶油", "植物奶油", "起酥油", "代可可脂", "奶精"],
-  "nitrite_names": ["亚硝酸钠", "硝酸钠"]
+  "trans_fat_keywords": [
+    "氢化",
+    "植脂末",
+    "人造奶油",
+    "植物奶油",
+    "起酥油",
+    "代可可脂",
+    "奶精"
+  ],
+  "nitrite_names": [
+    "亚硝酸钠",
+    "硝酸钠"
+  ]
 }

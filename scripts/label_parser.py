@@ -24,6 +24,8 @@ FUNCTIONAL_CLASSES = {
     "乳化剂", "稳定剂", "稳定和凝固剂", "酸度调节剂", "抗结剂", "膨松剂",
     "疏松剂", "水分保持剂", "被膜剂", "酶制剂", "增味剂", "面粉处理剂",
     "香精", "食用香精", "食用香料", "香料", "色素", "食用色素",
+    "营养强化剂", "复配营养强化剂", "复合营养强化剂", "食品营养强化剂",
+    "消泡剂", "助滤剂", "发酵用营养物质", "面团改良剂", "品质改良剂",
 }
 
 # 容器词：括号内是多个独立添加剂，不继承类别
@@ -64,6 +66,8 @@ def normalize(text):
     for k, v in FULLWIDTH.items():
         text = text.replace(k, v)
     text = re.sub(r"[\r\n\t ]+", " ", text).strip()
+    # 国标合法写法"单，双甘油脂肪酸酯"名字本身含分隔符，先归一再切分
+    text = re.sub(r"单[，,、]双甘油脂肪酸酯", "单双甘油脂肪酸酯", text)
     low = text.lower()
     for p in LABEL_PREFIXES:
         if low.startswith(p.lower()):
@@ -124,9 +128,8 @@ def _parse_token(tok, parent=None, declared_class=None, pos=0):
         item["percent"] = float(pm.group(1))
         return [item]
 
-    # 无分隔符且较短 -> 备注说明（如"含苯丙氨酸"、"又名xxx"）
     subs = split_top(paren)
-    if not subs or (len(subs) == 1 and len(paren) <= 24):
+    if not subs:
         item["name"] = head or paren
         item["remark"] = paren
         return [item]
@@ -145,10 +148,18 @@ def _parse_token(tok, parent=None, declared_class=None, pos=0):
         return out
 
     if _is_functional_head(head):
+        # 功能类别引导（即使括号内只有一个具体名称也要展开，
+        # 如"抗氧化剂（特丁基对苯二酚）"，不能当成备注）
         out = []
         for sub in subs:
             out.extend(_parse_token(sub, parent=parent, declared_class=head, pos=pos))
         return out
+
+    # 无分隔符且较短 -> 备注说明（如"阿斯巴甜（含苯丙氨酸）"）
+    if len(subs) == 1 and len(paren) <= 24:
+        item["name"] = head
+        item["remark"] = paren
+        return [item]
 
     # 复合配料：父项 + 子配料
     out = [{
@@ -176,6 +187,11 @@ def parse_label(text):
 
 def looks_like_additive(name, declared_class=None):
     """未收录条目的启发式分类：像不像食品添加剂。"""
+    # 裸功能类别名（如漏网的"增稠剂"）不算添加剂
+    if name in FUNCTIONAL_CLASSES or name in CONTAINERS:
+        return False
+    if declared_class and declared_class in ("营养强化剂", "复配营养强化剂"):
+        return False  # 强化剂按配料对待，不算"狠活"
     if declared_class:
         return True
     if E_NUMBER_RE.match(name.strip()):
