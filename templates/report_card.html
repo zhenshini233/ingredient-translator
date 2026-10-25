@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>配料表翻译官 · 报告卡片</title>
+<style>
+  :root { --tier: {{TIER_COLOR}}; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f6f7f9; display: flex; justify-content: center; padding: 24px 12px;
+  }
+  .card {
+    width: 480px; background: #fff; border-radius: 24px; overflow: hidden;
+    box-shadow: 0 8px 40px rgba(0,0,0,.08);
+  }
+  .head {
+    background: linear-gradient(135deg, #ff2442 0%, var(--tier) 100%);
+    padding: 28px 24px; color: #fff;
+  }
+  .brand { font-size: 13px; opacity: .9; letter-spacing: 3px; }
+  .product { font-size: 21px; font-weight: 700; margin-top: 6px; line-height: 1.4; }
+  .score-wrap { display: flex; align-items: center; gap: 18px; padding: 22px 24px 14px; }
+  .score-circle {
+    width: 106px; height: 106px; border-radius: 50%; border: 9px solid var(--tier);
+    display: flex; flex-direction: column; align-items: center; justify-content: center; flex-shrink: 0;
+  }
+  .score-num { font-size: 33px; font-weight: 800; color: #1f2329; line-height: 1; }
+  .score-sub { font-size: 11px; color: #999; margin-top: 5px; }
+  .tier-pill {
+    display: inline-block; background: var(--tier); color: #fff; font-weight: 700;
+    font-size: 14px; padding: 6px 16px; border-radius: 999px;
+  }
+  .verdict { font-size: 13px; color: #444; margin-top: 10px; line-height: 1.65; }
+  .section { padding: 6px 24px 8px; }
+  h3 { font-size: 14px; color: #1f2329; margin: 16px 0 8px; }
+  table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  td { padding: 7px 6px; border-bottom: 1px solid #f0f0f0; vertical-align: top; line-height: 1.5; }
+  td.name { color: #1f2329; white-space: nowrap; }
+  td.cat { color: #999; white-space: nowrap; }
+  td.what { color: #666; }
+  .more { text-align: center; color: #bbb; }
+  .note {
+    background: #fff8ef; border-left: 3px solid #ffb020; padding: 8px 12px;
+    border-radius: 6px; font-size: 12px; color: #5a4a33; margin-bottom: 8px; line-height: 1.6;
+  }
+  .footer { padding: 16px 24px 20px; background: #fafafa; font-size: 10.5px; color: #b0b0b0; line-height: 1.7; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="head">
+      <div class="brand">配料表翻译官</div>
+      <div class="product">{{PRODUCT}}</div>
+    </div>
+    <div class="score-wrap">
+      <div class="score-circle">
+        <div class="score-num">{{SCORE}}</div>
+        <div class="score-sub">狠活指数 / 100</div>
+      </div>
+      <div>
+        <span class="tier-pill">{{TIER}}</span>
+        <div class="verdict">{{VERDICT}}</div>
+      </div>
+    </div>
+    <div class="section">
+      <h3>📋 逐项速览</h3>
+      <table>{{TABLE_ROWS}}</table>
+    </div>
+    <div class="section">
+      <h3>⚠️ 值得注意</h3>
+      {{NOTABLES}}
+    </div>
+    <div class="footer">{{FOOTER}}</div>
+  </div>
+</body>
+</html>

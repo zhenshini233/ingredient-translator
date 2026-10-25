@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>配料表翻译官 · 报告卡片</title>
+<style>
+  :root { --tier: #e0a800; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f6f7f9; display: flex; justify-content: center; padding: 24px 12px;
+  }
+  .card {
+    width: 480px; background: #fff; border-radius: 24px; overflow: hidden;
+    box-shadow: 0 8px 40px rgba(0,0,0,.08);
+  }
+  .head {
+    background: linear-gradient(135deg, #ff2442 0%, var(--tier) 100%);
+    padding: 28px 24px; color: #fff;
+  }
+  .brand { font-size: 13px; opacity: .9; letter-spacing: 3px; }
+  .product { font-size: 21px; font-weight: 700; margin-top: 6px; line-height: 1.4; }
+  .score-wrap { display: flex; align-items: center; gap: 18px; padding: 22px 24px 14px; }
+  .score-circle {
+    width: 106px; height: 106px; border-radius: 50%; border: 9px solid var(--tier);
+    display: flex; flex-direction: column; align-items: center; justify-content: center; flex-shrink: 0;
+  }
+  .score-num { font-size: 33px; font-weight: 800; color: #1f2329; line-height: 1; }
+  .score-sub { font-size: 11px; color: #999; margin-top: 5px; }
+  .tier-pill {
+    display: inline-block; background: var(--tier); color: #fff; font-weight: 700;
+    font-size: 14px; padding: 6px 16px; border-radius: 999px;
+  }
+  .verdict { font-size: 13px; color: #444; margin-top: 10px; line-height: 1.65; }
+  .section { padding: 6px 24px 8px; }
+  h3 { font-size: 14px; color: #1f2329; margin: 16px 0 8px; }
+  table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  td { padding: 7px 6px; border-bottom: 1px solid #f0f0f0; vertical-align: top; line-height: 1.5; }
+  td.name { color: #1f2329; white-space: nowrap; }
+  td.cat { color: #999; white-space: nowrap; }
+  td.what { color: #666; }
+  .more { text-align: center; color: #bbb; }
+  .note {
+    background: #fff8ef; border-left: 3px solid #ffb020; padding: 8px 12px;
+    border-radius: 6px; font-size: 12px; color: #5a4a33; margin-bottom: 8px; line-height: 1.6;
+  }
+  .footer { padding: 16px 24px 20px; background: #fafafa; font-size: 10.5px; color: #b0b0b0; line-height: 1.7; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="head">
+      <div class="brand">配料表翻译官</div>
+      <div class="product">儿童奶酪棒（模拟）</div>
+    </div>
+    <div class="score-wrap">
+      <div class="score-circle">
+        <div class="score-num">41</div>
+        <div class="score-sub">狠活指数 / 100</div>
+      </div>
+      <div>
+        <span class="tier-pill">黄灯</span>
+        <div class="verdict">配料平常：属于常规工业化食品水平，没有明显红旗项，日常适量即可。</div>
+      </div>
+    </div>
+    <div class="section">
+      <h3>📋 逐项速览</h3>
+      <table><tr><td class='name'>🟢 干酪 › 凝乳酶</td><td class='cat'>酶制剂</td><td class='what'>奶酪生产的核心凝乳酶。</td></tr><tr><td class='name'>🟡 磷酸三钙</td><td class='cat'>抗结剂</td><td class='what'>抗结兼钙强化。</td></tr><tr><td class='name'>🟡 卡拉胶</td><td class='cat'>增稠剂</td><td class='what'>海藻提取的胶体，让酸奶果冻口感浓稠。</td></tr><tr><td class='name'>🟡 山梨酸钾</td><td class='cat'>防腐剂</td><td class='what'>最常用的低毒防腐剂之一，面包、糕点、饮料、酱料都常见。</td></tr><tr><td class='name'>🟢 柠檬酸</td><td class='cat'>酸度调节剂</td><td class='what'>最常用的酸味剂，也作抗氧化增效，饮料、糖果、罐头无处不在。</td></tr><tr><td class='name'>🟡 食用香精</td><td class='cat'>香精香料</td><td class='what'>由多种香料组成的混合物，提供风味，饮料零食几乎无处不在。</td></tr><tr><td class='name'>🟡 白砂糖</td><td class='cat'>糖类配料</td><td class='what'>最常见的糖。配料表排位越靠前含量越高。</td></tr></table>
+    </div>
+    <div class="section">
+      <h3>⚠️ 值得注意</h3>
+      <div class='note'>🍬 糖类配料排在第 3 位，含量不低</div><div class='note'>⚠️ 可能涉及过敏原：乳（以包装为准）</div>
+    </div>
+    <div class="footer">狠活指数衡量配料复杂程度，不等于食品安全结论 · 数据依据 GB 2760 等公开资料（版本 2026.10-v1） · 仅供参考，不构成健康建议，以包装标注和现行国标为准</div>
+  </div>
+</body>
+</html>
