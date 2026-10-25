@@ -1,6 +1,11 @@
 ---
 name: ingredient-translator
 description: 配料表翻译官——把食品配料表翻译成人话。当用户发来食品配料表的照片、截图或文字，询问"这个配料表怎么样 / 有什么添加剂 / 能不能给孩子吃 / 科技与狠活多不多"等食品选购问题时使用。输出每个添加剂的作用与人群提示、过敏原提示、反式脂肪/高糖红旗，并给出确定性的"狠活指数"评分与完整报告。适用于超市选购、宝妈选零食、健身饮食、成分党日常。
+license: MIT
+compatibility: 需要宿主能运行 Python 3.7+ 脚本（零第三方依赖）；无代码执行能力时可按 references/quick_reference.md 降级评估
+metadata:
+  author: zhenshini233
+  version: "4.2"
 ---
 
 # 配料表翻译官

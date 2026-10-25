@@ -2,6 +2,11 @@
 
 数据库版本以 `references/additives.json` 的 `version` 字段为准；每版发布前运行 `python scripts/selftest.py` 回归。
 
+## v4.2（2026-10-25）—— 开源合规
+
+- 新增 MIT LICENSE（此前仓库无任何许可证，法律上默认保留所有权利，阻碍他人复用）
+- SKILL.md frontmatter 补齐 Agent Skills 规范推荐字段：`license` / `compatibility`（Python 3.7+、无脚本可降级）/ `metadata`（author、version）
+
 ## v4.1（2026-10-25）—— 工程化补强
 
 - 新增 `scripts/selftest.py`：数据库完整性 / 解析金样本 / demo 评分回归三层自检，一条命令验证安装
