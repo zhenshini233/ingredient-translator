@@ -26,10 +26,20 @@ FUNCTIONAL_CLASSES = {
     "香精", "食用香精", "食用香料", "香料", "色素", "食用色素",
     "营养强化剂", "复配营养强化剂", "复合营养强化剂", "食品营养强化剂",
     "消泡剂", "助滤剂", "发酵用营养物质", "面团改良剂", "品质改良剂",
+    # 营养素容器词：维生素（…）、矿物质（…）——括号里才是具体品种
+    "维生素", "复合维生素", "复配维生素", "多种维生素",
+    "矿物质", "复配矿物质", "矿物质元素", "营养素",
 }
 
 # 容器词：括号内是多个独立添加剂，不继承类别
 CONTAINERS = {"食品添加剂", "复配添加剂", "复合添加剂"}
+
+# 营养素类容器词：按"营养强化"对待，不计入"狠活"（同营养强化剂口径）
+NUTRIENT_CLASSES = {
+    "营养强化剂", "复配营养强化剂", "复合营养强化剂", "食品营养强化剂",
+    "维生素", "复合维生素", "复配维生素", "多种维生素",
+    "矿物质", "复配矿物质", "矿物质元素", "营养素",
+}
 
 # 疑似添加剂的后缀/词形（用于未收录条目的分类判断）
 ADDITIVE_SUFFIXES = ("剂", "香精", "香料", "色素", "酯", "酸钠", "酸钾", "酸钙", "酐", "苷", "胶")
@@ -190,8 +200,8 @@ def looks_like_additive(name, declared_class=None):
     # 裸功能类别名（如漏网的"增稠剂"）不算添加剂
     if name in FUNCTIONAL_CLASSES or name in CONTAINERS:
         return False
-    if declared_class and declared_class in ("营养强化剂", "复配营养强化剂"):
-        return False  # 强化剂按配料对待，不算"狠活"
+    if declared_class and any(nc in declared_class for nc in NUTRIENT_CLASSES):
+        return False  # 营养强化类（含"B族维生素"等变体）按配料对待，不算"狠活"
     if declared_class:
         return True
     if E_NUMBER_RE.match(name.strip()):

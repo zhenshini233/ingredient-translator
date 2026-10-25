@@ -1,5 +1,5 @@
 {
-  "version": "2026.10-v3",
+  "version": "2026.10-v4",
   "source_note": "高频条目依据 GB 2760《食品安全国家标准 食品添加剂使用标准》及公开资料人工整理，为常用子集而非全集。数据仅供参考，一切以产品包装标注和现行国标为准。",
   "risk_levels": {
     "0": "常规安心：国标允许、日常大量使用、无普遍人群提示",
@@ -4469,6 +4469,45 @@
       "aliases": [
         "脱乙酰甲壳素"
       ]
+    },
+    {
+      "name": "山梨醇酐三硬脂酸酯",
+      "en": "Sorbitan tristearate",
+      "e": "E492",
+      "cat": "乳化剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "司盘类乳化剂（司盘65），糖果、油脂制品常用。",
+      "care": "",
+      "aliases": [
+        "司盘65",
+        "span65"
+      ]
+    },
+    {
+      "name": "山梨醇酐单棕榈酸酯",
+      "en": "Sorbitan monopalmitate",
+      "e": "E495",
+      "cat": "乳化剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "司盘类乳化剂（司盘40）。",
+      "care": "",
+      "aliases": [
+        "司盘40",
+        "span40"
+      ]
+    },
+    {
+      "name": "辣椒油树脂",
+      "en": "Paprika oleoresin",
+      "e": "E160c",
+      "cat": "着色剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "辣椒提取的天然色素，兼带风味物质，辣味调料常用。",
+      "care": "天然来源。",
+      "aliases": []
     }
   ],
   "allergens": [

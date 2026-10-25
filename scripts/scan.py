@@ -54,6 +54,11 @@ for _e in ENTRIES:
             BY_KEY[_k] = _e
 
 
+# 裸容器词（不在括号语境出现时）：不做模糊匹配，避免"维生素"漂移到维生素E
+GENERIC_CONTAINER_WORDS = {"维生素", "复合维生素", "多种维生素", "矿物质",
+                           "矿物质元素", "营养素", "微量元素"}
+
+
 def resolve(name):
     """别名归一：精确 -> 包含（最长优先）-> 模糊（容忍 OCR 错字）。"""
     kk = _key(name)
@@ -61,6 +66,8 @@ def resolve(name):
         return None
     if kk in BY_KEY:
         return BY_KEY[kk]
+    if kk in GENERIC_CONTAINER_WORDS:
+        return None
     best = None
     for key, entry in BY_KEY.items():
         # 方向一：已知别名(≥2字)出现在未知名里（如"优质果胶"含"果胶"）
