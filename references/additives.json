@@ -1,5 +1,5 @@
 {
-  "version": "2026.10-v2.2",
+  "version": "2026.10-v2.1",
   "source_note": "高频条目依据 GB 2760《食品安全国家标准 食品添加剂使用标准》及公开资料人工整理，为常用子集而非全集。数据仅供参考，一切以产品包装标注和现行国标为准。",
   "risk_levels": {
     "0": "常规安心：国标允许、日常大量使用、无普遍人群提示",
@@ -2319,17 +2319,6 @@
       "aliases": []
     },
     {
-      "name": "硅酸钙",
-      "en": "calcium silicate",
-      "e": "E552",
-      "cat": "抗结剂",
-      "kind": "additive",
-      "risk": 0,
-      "what": "抗结块，粉末食品、调味料常见。",
-      "care": "",
-      "aliases": []
-    },
-    {
       "name": "硅铝酸钠",
       "en": "sodium aluminosilicate",
       "e": "E554",
@@ -3331,6 +3320,477 @@
       "what": "碱剂，面条、可可加工用。",
       "care": "",
       "aliases": []
+    },
+    {
+      "name": "稳定态二氧化氯",
+      "en": "stabilized chlorine dioxide",
+      "e": "E926",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "缓慢释放二氧化氯杀菌防腐，水产加工、饮用水处理常用。",
+      "care": "",
+      "aliases": [
+        "二氧化氯"
+      ]
+    },
+    {
+      "name": "仲丁胺",
+      "en": "sec-butylamine",
+      "e": "",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "柑橘、荔枝等水果采后熏蒸保鲜剂。",
+      "care": "用于果皮处理，食用前清洗、去皮可减少摄入。",
+      "aliases": [
+        "2-氨基丁烷"
+      ]
+    },
+    {
+      "name": "桂醛",
+      "en": "cinnamaldehyde",
+      "e": "",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "肉桂中的天然芳香成分，用于水果采后防腐保鲜。",
+      "care": "用于果皮表面，去皮食用摄入更少。",
+      "aliases": [
+        "肉桂醛"
+      ]
+    },
+    {
+      "name": "噻苯咪唑",
+      "en": "thiabendazole",
+      "e": "",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 2,
+      "what": "柑橘、香蕉采后防霉保鲜剂。",
+      "care": "兼具农药身份；欧盟已不再将其作为食品添加剂，食用前清洗去皮。",
+      "aliases": [
+        "噻菌灵"
+      ]
+    },
+    {
+      "name": "2-苯基苯酚钠盐",
+      "en": "sodium o-phenylphenate",
+      "e": "",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 2,
+      "what": "柑橘类水果采后表面防霉保鲜剂。",
+      "care": "用于果皮表面，清洗去皮可减少摄入。",
+      "aliases": [
+        "邻苯基苯酚钠"
+      ]
+    },
+    {
+      "name": "4-苯基苯酚",
+      "en": "4-phenylphenol",
+      "e": "",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 2,
+      "what": "柑橘类水果采后防霉保鲜剂。",
+      "care": "用于果皮表面，清洗去皮可减少摄入。",
+      "aliases": []
+    },
+    {
+      "name": "乙萘酚",
+      "en": "2-naphthol",
+      "e": "",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 2,
+      "what": "柑橘类水果贮运防霉保鲜剂。",
+      "care": "用于果皮表面，清洗去皮可减少摄入。",
+      "aliases": [
+        "β-萘酚"
+      ]
+    },
+    {
+      "name": "联苯",
+      "en": "diphenyl ether",
+      "e": "",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "柑橘贮运防霉保鲜剂，常载于保鲜纸缓释。",
+      "care": "用于果皮与包装纸，食用前清洗去皮。",
+      "aliases": [
+        "联苯醚"
+      ]
+    },
+    {
+      "name": "乙氧基喹",
+      "en": "ethoxyquin",
+      "e": "",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 2,
+      "what": "苹果等水果采后保鲜，防贮期病害。",
+      "care": "欧盟对其在饲料中的使用已暂停并重新评估；我国允许限量用于水果保鲜。",
+      "aliases": []
+    },
+    {
+      "name": "对羟基苯甲酸甲酯钠",
+      "en": "sodium methylparaben",
+      "e": "E219",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 2,
+      "what": "尼泊金酯类防腐剂，酱料、腌菜、饮料常见。",
+      "care": "尼泊金酯类；国标允许限量使用，公众对其内分泌影响有讨论。",
+      "aliases": [
+        "尼泊金甲酯钠",
+        "尼泊金甲酯",
+        "对羟基苯甲酸甲酯"
+      ]
+    },
+    {
+      "name": "对羟基苯甲酸乙酯",
+      "en": "ethylparaben",
+      "e": "E214",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 2,
+      "what": "尼泊金乙酯，与甲酯同类的防腐剂。",
+      "care": "同尼泊金甲酯类，国标允许限量使用。",
+      "aliases": [
+        "对羟基苯甲酸乙酯钠",
+        "尼泊金乙酯"
+      ]
+    },
+    {
+      "name": "单辛酸甘油酯",
+      "en": "glyceryl monocaprylate",
+      "e": "",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "中链脂肪酸甘油酯类防腐剂，糕点、馅料、肉肠常见。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "ε-聚赖氨酸",
+      "en": "epsilon-polylysine",
+      "e": "",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "发酵法生产的天然多肽防腐剂，可被消化分解。",
+      "care": "",
+      "aliases": [
+        "聚赖氨酸",
+        "ε-聚赖氨酸盐酸盐"
+      ]
+    },
+    {
+      "name": "氮气",
+      "en": "nitrogen",
+      "e": "E941",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "充氮包装的惰性气体，隔绝氧气防氧化保鲜。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "二甲基二碳酸盐",
+      "en": "dimethyl dicarbonate",
+      "e": "E242",
+      "cat": "防腐剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "灌装时加入的冷杀菌剂，果汁、茶饮料用。",
+      "care": "加入后迅速分解为二氧化碳和微量甲醇，成品中基本无残留。",
+      "aliases": [
+        "DMDC",
+        "维果灵"
+      ]
+    },
+    {
+      "name": "甘草抗氧化物",
+      "en": "licorice antioxidant",
+      "e": "",
+      "cat": "抗氧化剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "甘草提取的天然抗氧化物，油脂、油炸食品用。",
+      "care": "",
+      "aliases": [
+        "甘草抗氧物"
+      ]
+    },
+    {
+      "name": "竹叶抗氧化物",
+      "en": "antioxidant of bamboo leaves",
+      "e": "",
+      "cat": "抗氧化剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "竹叶提取的黄酮类天然抗氧化剂，肉制品、油脂制品用。",
+      "care": "",
+      "aliases": [
+        "竹叶黄酮"
+      ]
+    },
+    {
+      "name": "D-异抗坏血酸",
+      "en": "erythorbic acid",
+      "e": "E315",
+      "cat": "抗氧化剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "抗坏血酸的异构体，助色抗氧化，腌腊肉制品常用。",
+      "care": "基本无维生素C生理活性。",
+      "aliases": [
+        "异抗坏血酸"
+      ]
+    },
+    {
+      "name": "硫代二丙酸二月桂酯",
+      "en": "dilauryl thiodipropionate",
+      "e": "",
+      "cat": "抗氧化剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "合成抗氧化剂，与没食子酸丙酯等同用于油脂防哈败。",
+      "care": "",
+      "aliases": [
+        "DLTP"
+      ]
+    },
+    {
+      "name": "亚硝酸钾",
+      "en": "potassium nitrite",
+      "e": "E249",
+      "cat": "护色剂",
+      "kind": "additive",
+      "risk": 2,
+      "what": "腌腊肉制品护色防腐，亚硝酸钠的钾盐形式。",
+      "care": "同亚硝酸钠，与肉中胺类可形成亚硝胺，加工肉制品适量食用。",
+      "aliases": []
+    },
+    {
+      "name": "硝酸钾",
+      "en": "potassium nitrate",
+      "e": "E252",
+      "cat": "护色剂",
+      "kind": "additive",
+      "risk": 2,
+      "what": "腌腊肉制品护色，体内可转化为亚硝酸盐。",
+      "care": "同亚硝酸钠。",
+      "aliases": [
+        "硝石"
+      ]
+    },
+    {
+      "name": "亚硫酸氢钠",
+      "en": "sodium bisulphite",
+      "e": "E222",
+      "cat": "漂白剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "亚硫酸盐类漂白防腐剂，果干、脱水蔬菜加工常用。",
+      "care": "少数敏感人群（如哮喘患者）注意。",
+      "aliases": [
+        "酸式亚硫酸钠"
+      ]
+    },
+    {
+      "name": "硫磺",
+      "en": "sulphur",
+      "e": "",
+      "cat": "漂白剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "熏硫漂白防腐，传统用于果干、蜜饯、银耳加工。",
+      "care": "残留以二氧化硫计，敏感人群注意。",
+      "aliases": []
+    },
+    {
+      "name": "磷酸二氢钾",
+      "en": "potassium dihydrogen phosphate",
+      "e": "E340i",
+      "cat": "水分保持剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "磷酸盐，缓冲保水，肉制品、乳制品、饮料常用。",
+      "care": "磷酸盐类，肾功能不佳者留意总摄入。",
+      "aliases": [
+        "磷酸一钾"
+      ]
+    },
+    {
+      "name": "磷酸氢二钾",
+      "en": "dipotassium phosphate",
+      "e": "E340ii",
+      "cat": "水分保持剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "磷酸盐，缓冲保水，常与磷酸二氢钾搭配使用。",
+      "care": "磷酸盐类，肾功能不佳者留意总摄入。",
+      "aliases": [
+        "磷酸二钾"
+      ]
+    },
+    {
+      "name": "磷酸氢钙",
+      "en": "calcium hydrogen phosphate",
+      "e": "E341ii",
+      "cat": "水分保持剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "磷酸盐兼钙源，面粉处理、奶粉、豆奶常用。",
+      "care": "磷酸盐类，肾功能不佳者留意总摄入。",
+      "aliases": [
+        "磷酸二钙"
+      ]
+    },
+    {
+      "name": "磷酸二氢铵",
+      "en": "monoammonium phosphate",
+      "e": "",
+      "cat": "水分保持剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "磷酸盐，缓冲与发酵助剂，面制品、酿造加工用。",
+      "care": "磷酸盐类，肾功能不佳者留意总摄入。",
+      "aliases": []
+    },
+    {
+      "name": "三偏磷酸钠",
+      "en": "sodium trimetaphosphate",
+      "e": "",
+      "cat": "水分保持剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "磷酸盐，保水与淀粉改性，水产、淀粉制品加工用。",
+      "care": "磷酸盐类，肾功能不佳者留意总摄入。",
+      "aliases": []
+    },
+    {
+      "name": "焦磷酸钾",
+      "en": "tetrapotassium pyrophosphate",
+      "e": "E450v",
+      "cat": "水分保持剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "磷酸盐，保水螯合，肉制品与水产加工用。",
+      "care": "磷酸盐类，肾功能不佳者留意总摄入。",
+      "aliases": []
+    },
+    {
+      "name": "聚偏磷酸钾",
+      "en": "potassium polymetaphosphate",
+      "e": "E452ii",
+      "cat": "水分保持剂",
+      "kind": "additive",
+      "risk": 1,
+      "what": "磷酸盐，保水螯合，肉制品、奶酪加工用。",
+      "care": "磷酸盐类，肾功能不佳者留意总摄入。",
+      "aliases": []
+    },
+    {
+      "name": "山梨糖醇液",
+      "en": "sorbitol syrup",
+      "e": "E420ii",
+      "cat": "水分保持剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "山梨糖醇的液态形式，保湿保水，海苔、鱿鱼丝常见。",
+      "care": "过量可能轻泻。",
+      "aliases": [
+        "山梨醇液"
+      ]
+    },
+    {
+      "name": "甘油",
+      "en": "glycerol",
+      "e": "E422",
+      "cat": "水分保持剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "保水保湿剂，糖果、糕点、能量胶常见，可被人体代谢。",
+      "care": "",
+      "aliases": [
+        "丙三醇"
+      ]
+    },
+    {
+      "name": "乳酸钾",
+      "en": "potassium lactate",
+      "e": "E326",
+      "cat": "水分保持剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "保湿保鲜增效，肉制品、禽肉制品常见。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "滑石粉",
+      "en": "talc",
+      "e": "E553ii",
+      "cat": "抗结剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "天然矿物抗结剂，糖果包衣、谷物制品防粘常用。",
+      "care": "",
+      "aliases": [
+        "滑石"
+      ]
+    },
+    {
+      "name": "硬脂酸钙",
+      "en": "calcium stearate",
+      "e": "E470a",
+      "cat": "抗结剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "抗结兼乳化的钙皂，糖果、压片食品防粘润滑。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "硬脂酸钾",
+      "en": "potassium stearate",
+      "e": "E470b",
+      "cat": "抗结剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "抗结兼乳化的钾皂，糖果制品防粘用。",
+      "care": "",
+      "aliases": []
+    },
+    {
+      "name": "纤维素",
+      "en": "powdered cellulose",
+      "e": "E460ii",
+      "cat": "抗结剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "植物来源纤维粉末，抗结防块，粉状食品常用。",
+      "care": "即膳食纤维，不被消化吸收。",
+      "aliases": [
+        "粉状纤维素"
+      ]
+    },
+    {
+      "name": "碳酸镁",
+      "en": "magnesium carbonate",
+      "e": "E504i",
+      "cat": "抗结剂",
+      "kind": "additive",
+      "risk": 0,
+      "what": "抗结防粘的镁盐，食盐、小麦粉制品、糖果用。",
+      "care": "",
+      "aliases": []
     }
   ],
   "allergens": [
@@ -3471,6 +3931,8 @@
   ],
   "nitrite_names": [
     "亚硝酸钠",
-    "硝酸钠"
+    "硝酸钠",
+    "亚硝酸钾",
+    "硝酸钾"
   ]
 }
